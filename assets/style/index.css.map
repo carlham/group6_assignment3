@@ -3,7 +3,13 @@
     "mappings": "",
     "sources": [
         "index.scss",
-        "_colors.scss"
+        "_colors.scss",
+        "_fonts.scss",
+        "_keyframes.scss",
+        "_layout.scss",
+        "_media-queries.scss",
+        "_svg.scss",
+        "_pages.scss"
     ],
     "names": [],
     "file": "index.css"
