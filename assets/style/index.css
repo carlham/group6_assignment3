@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #a0ebe3;
+}
+
+body > div > * {
+  width: 600px;
+  height: 600px;
+  background-color: #5f9ea0;
+  /*background color just for visibility for now*/
+  margin: 100px auto;
+}
+
+.introtext h1 {
+  text-align: center;
+  height: auto;
+  margin: 150px auto 50px;
+  font-size: 3rem;
+  background-color: inherit;
+}
+
+.introtext .introtext__text {
+  background-color: inherit;
+  margin: 0 auto;
+  height: auto;
+}
+/*# sourceMappingURL=index.css.map */
