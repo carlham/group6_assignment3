@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    background-color: $tourqise;
+}
+
+body>div>* {
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: 100px auto;
+}
+
+.introtext>h1 {
+    text-align: center;
+    height: auto;
+    margin: 200px auto 50px;
+    font-size: 3rem;
+    background-color: inherit;
+}
+
+.introtext__text {
+    height: auto;
+    margin: 0 auto;
+    background-color: inherit;
+}
