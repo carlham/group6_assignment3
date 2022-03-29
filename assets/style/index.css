@@ -11,6 +11,7 @@ body > div > * {
   width: 600px;
   height: 600px;
   background-color: #5f9ea0;
+  /*background color just for visibility for now*/
   margin: 100px auto;
 }
 
