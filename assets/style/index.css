@@ -10,21 +10,21 @@ body {
 body > div > * {
   width: 600px;
   height: 600px;
-  background-color: red;
+  background-color: #5f9ea0;
   margin: 100px auto;
 }
 
-.introtext > h1 {
+.introtext h1 {
   text-align: center;
   height: auto;
-  margin: 200px auto 50px;
+  margin: 150px auto 50px;
   font-size: 3rem;
   background-color: inherit;
 }
 
-.introtext__text {
-  height: auto;
-  margin: 0 auto;
+.introtext .introtext__text {
   background-color: inherit;
+  margin: 0 auto;
+  height: auto;
 }
 /*# sourceMappingURL=index.css.map */

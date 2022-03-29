@@ -6,20 +6,23 @@ body {
 body>div>* {
     width: 600px;
     height: 600px;
-    background-color: red;
+    background-color: $cadetBlue;
     margin: 100px auto;
 }
 
-.introtext>h1 {
-    text-align: center;
-    height: auto;
-    margin: 200px auto 50px;
-    font-size: 3rem;
-    background-color: inherit;
-}
+.introtext {
 
-.introtext__text {
-    height: auto;
-    margin: 0 auto;
-    background-color: inherit;
+    h1 {
+        text-align: center;
+        height: auto;
+        margin: 150px auto 50px;
+        font-size: 3rem;
+        background-color: inherit;
+    }
+
+    .introtext__text {
+        background-color: inherit;
+        margin: 0 auto;
+        height: auto;
+    }
 }
