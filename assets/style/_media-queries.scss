@@ -1,0 +1,22 @@
+/* all media-query related here*/
+@media (prefers-reduced-motion) {
+    * {
+        animation: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@media (prefers-color-scheme: light) {
+    
+}
+
+@media (orientation: landscape) {
+
+}
+
+@media (orientation: portrait) {
+    
+}
