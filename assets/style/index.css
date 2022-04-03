@@ -1,7 +1,13 @@
+/*TODO
+potentially more/differnt colors*/
 * {
   font-family: sans-serif;
 }
 
+/*TODO
+add fonts, choose good font combination*/
+/*all animations go here, svg animations could go in the HTML as well*/
+/*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
   background-color: #a0ebe3;
@@ -28,4 +34,6 @@ body > div > * {
   margin: 0 auto;
   height: auto;
 }
+
+/* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
 /*# sourceMappingURL=index.css.map */
