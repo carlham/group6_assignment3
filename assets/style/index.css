@@ -35,5 +35,13 @@ body > div > * {
   height: auto;
 }
 
+/* all media-query related here*/
+@media (prefers-reduced-motion) {
+  * {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
 /*# sourceMappingURL=index.css.map */
