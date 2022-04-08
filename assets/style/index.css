@@ -43,5 +43,15 @@ body > div > * {
   }
 }
 
+.page-four__ground {
+  -webkit-transform: translate(0, 459px);
+          transform: translate(0, 459px);
+}
+
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
+.page-four,
+.page-five,
+.page-six {
+  background-color: #025e73;
+}
 /*# sourceMappingURL=index.css.map */
