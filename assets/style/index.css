@@ -48,6 +48,16 @@ body > div > * {
           transform: translate(0, 459px);
 }
 
+.page-four__rock {
+  -webkit-transform: translate(471px, 328px) scale(2);
+          transform: translate(471px, 328px) scale(2);
+}
+
+.page-four__rock__star {
+  -webkit-transform: translate(25px, 5px);
+          transform: translate(25px, 5px);
+}
+
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
 .page-four,
 .page-five,
