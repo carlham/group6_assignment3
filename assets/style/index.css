@@ -46,26 +46,31 @@ body > div > * {
 .page-four__ground {
   -webkit-transform: translate(0, 381px);
           transform: translate(0, 381px);
+  stroke: #e9d5b6;
 }
 
 .page-four__rock {
   -webkit-transform: translate(471px, 250px) scale(2);
           transform: translate(471px, 250px) scale(2);
+  fill: #C4C4C4;
 }
 
 .page-four__rock__star {
   -webkit-transform: translate(30px, 5px) scale(0.8);
           transform: translate(30px, 5px) scale(0.8);
+  fill: #E48D3D;
 }
 
 .page-four__ground__pebbleone {
   -webkit-transform: translate(130px, 60px) scale(1.6);
           transform: translate(130px, 60px) scale(1.6);
+  fill: #C4C4C4;
 }
 
 .page-four__ground__pebbletwo {
   -webkit-transform: translate(300px, 90px) scale(1.6);
           transform: translate(300px, 90px) scale(1.6);
+  fill: #C4C4C4;
 }
 
 .page-four__fishone {
