@@ -22,7 +22,21 @@
     transform: translate(300px, 90px) scale(1.6);
     fill: $grey;
 }
+
 .page-four__fishone {
     transform: translate(100px, 130px);
     fill: $greyBlue;
+}
+.page-four__ground__star-one {
+    fill: $orange;
+    transform: translate(100px, 90px);
+}
+
+.page-four__ground__star-two {
+    transform: translate(260px, 20px) scale(1.3);
+    fill: $orange;
+}
+.page-four__ground__star-three {
+    transform: translate(350px, 40px) scale(1.2);
+    fill: $orange;
 }

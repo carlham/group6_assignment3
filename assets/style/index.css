@@ -79,6 +79,24 @@ body > div > * {
   fill: #7899BF;
 }
 
+.page-four__ground__star-one {
+  fill: #E48D3D;
+  -webkit-transform: translate(100px, 90px);
+          transform: translate(100px, 90px);
+}
+
+.page-four__ground__star-two {
+  -webkit-transform: translate(260px, 20px) scale(1.3);
+          transform: translate(260px, 20px) scale(1.3);
+  fill: #E48D3D;
+}
+
+.page-four__ground__star-three {
+  -webkit-transform: translate(350px, 40px) scale(1.2);
+          transform: translate(350px, 40px) scale(1.2);
+  fill: #E48D3D;
+}
+
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
 .page-four,
 .page-five,
