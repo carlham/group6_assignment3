@@ -1,0 +1,42 @@
+.page-four__ground {
+    transform: translate(0, 381px); 
+    stroke: $sand; 
+}
+
+.page-four__rock {
+    transform: translate(471px, 250px) scale(2);
+    fill: $grey;
+}
+
+.page-four__rock__star {
+    transform: translate(30px, 5px) scale(0.8);
+    fill: $orange;
+}
+
+.page-four__ground__pebbleone {
+    transform: translate(130px, 60px) scale(1.6);
+    fill: $grey;
+}
+
+.page-four__ground__pebbletwo {
+    transform: translate(300px, 90px) scale(1.6);
+    fill: $grey;
+}
+
+.page-four__fishone {
+    transform: translate(100px, 130px);
+    fill: $greyBlue;
+}
+.page-four__ground__star-one {
+    fill: $orange;
+    transform: translate(100px, 90px);
+}
+
+.page-four__ground__star-two {
+    transform: translate(260px, 20px) scale(1.3);
+    fill: $orange;
+}
+.page-four__ground__star-three {
+    transform: translate(350px, 40px) scale(1.2);
+    fill: $orange;
+}

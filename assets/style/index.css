@@ -43,5 +43,64 @@ body > div > * {
   }
 }
 
+.page-four__ground {
+  -webkit-transform: translate(0, 381px);
+          transform: translate(0, 381px);
+  stroke: #e9d5b6;
+}
+
+.page-four__rock {
+  -webkit-transform: translate(471px, 250px) scale(2);
+          transform: translate(471px, 250px) scale(2);
+  fill: #C4C4C4;
+}
+
+.page-four__rock__star {
+  -webkit-transform: translate(30px, 5px) scale(0.8);
+          transform: translate(30px, 5px) scale(0.8);
+  fill: #E48D3D;
+}
+
+.page-four__ground__pebbleone {
+  -webkit-transform: translate(130px, 60px) scale(1.6);
+          transform: translate(130px, 60px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-four__ground__pebbletwo {
+  -webkit-transform: translate(300px, 90px) scale(1.6);
+          transform: translate(300px, 90px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-four__fishone {
+  -webkit-transform: translate(100px, 130px);
+          transform: translate(100px, 130px);
+  fill: #7899BF;
+}
+
+.page-four__ground__star-one {
+  fill: #E48D3D;
+  -webkit-transform: translate(100px, 90px);
+          transform: translate(100px, 90px);
+}
+
+.page-four__ground__star-two {
+  -webkit-transform: translate(260px, 20px) scale(1.3);
+          transform: translate(260px, 20px) scale(1.3);
+  fill: #E48D3D;
+}
+
+.page-four__ground__star-three {
+  -webkit-transform: translate(350px, 40px) scale(1.2);
+          transform: translate(350px, 40px) scale(1.2);
+  fill: #E48D3D;
+}
+
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
+.page-four,
+.page-five,
+.page-six {
+  background-color: #025e73;
+}
 /*# sourceMappingURL=index.css.map */
