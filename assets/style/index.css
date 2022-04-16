@@ -76,6 +76,7 @@ body > div > * {
   -webkit-transform: translate(0, 381px);
           transform: translate(0, 381px);
   stroke: #e9d5b6;
+  overflow: visible;
 }
 
 .page-four__rock {
@@ -88,6 +89,34 @@ body > div > * {
   -webkit-transform: translate(30px, 5px) scale(0.8);
           transform: translate(30px, 5px) scale(0.8);
   fill: #E48D3D;
+}
+
+.page-four__ground__seaweedone {
+  -webkit-transform: translate(10px, -12px);
+          transform: translate(10px, -12px);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-four__ground__seaweedtwo {
+  -webkit-transform: translate(30px, -8px) scale(0.8);
+          transform: translate(30px, -8px) scale(0.8);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-four__ground__seaweedthree {
+  -webkit-transform: translate(44px, -20px) scale(1.07);
+          transform: translate(44px, -20px) scale(1.07);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-four__ground__seaweedfour {
+  -webkit-transform: translate(62px, -18px) scale(1.1);
+          transform: translate(62px, -18px) scale(1.1);
+  fill: #34a333;
+  stroke: #34a333;
 }
 
 .page-four__ground__pebbleone {

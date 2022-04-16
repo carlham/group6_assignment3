@@ -1,6 +1,7 @@
 .page-four__ground {
     transform: translate(0, 381px); 
     stroke: $sand; 
+    overflow: visible;
 }
 
 .page-four__rock {
@@ -11,6 +12,30 @@
 .page-four__rock__star {
     transform: translate(30px, 5px) scale(0.8);
     fill: $orange;
+}
+
+.page-four__ground__seaweedone {
+    transform: translate(10px, -12px);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedtwo {
+    transform: translate(30px, -8px) scale(0.8);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedthree {
+    transform: translate(44px, -20px) scale(1.07);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedfour {
+    transform: translate(62px, -18px) scale(1.1);
+    fill: $brightGreen;
+    stroke: $brightGreen;
 }
 
 .page-four__ground__pebbleone {
