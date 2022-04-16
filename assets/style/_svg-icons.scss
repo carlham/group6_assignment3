@@ -27,6 +27,11 @@
     transform: translate(100px, 130px);
     fill: $greyBlue;
 }
+
+.page-four__fishone * {
+    animation: fishfloat 3s infinite;
+}
+
 .page-four__ground__star-one {
     fill: $orange;
     transform: translate(100px, 90px);
