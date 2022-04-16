@@ -79,13 +79,21 @@ body > div > * {
   overflow: visible;
 }
 
-.page-four__rock {
+.page-five__ground {
+  -webkit-transform: translate(150px, 367px) scale(3);
+          transform: translate(150px, 367px) scale(3);
+  fill: #e9d5b6;
+}
+
+.page-four__rock,
+.page-five__rock {
   -webkit-transform: translate(471px, 250px) scale(2);
           transform: translate(471px, 250px) scale(2);
   fill: #C4C4C4;
 }
 
-.page-four__rock__star {
+.page-four__rock__star,
+.page-five__rock__star {
   -webkit-transform: translate(30px, 5px) scale(0.8);
           transform: translate(30px, 5px) scale(0.8);
   fill: #E48D3D;
@@ -131,7 +139,8 @@ body > div > * {
   fill: #C4C4C4;
 }
 
-.page-four__fishone {
+.page-four__fishone,
+.page-five__fishone {
   -webkit-transform: translate(80px, 90px);
           transform: translate(80px, 90px);
   fill: #7899BF;
@@ -202,5 +211,6 @@ body > div > * {
 .page-five,
 .page-six {
   background-color: #025e73;
+  overflow: hidden;
 }
 /*# sourceMappingURL=index.css.map */

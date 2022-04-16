@@ -4,12 +4,19 @@
     overflow: visible;
 }
 
-.page-four__rock {
+.page-five__ground {
+    transform: translate(150px, 367px) scale(3);
+    fill: $sand;
+}
+
+.page-four__rock,
+.page-five__rock {
     transform: translate(471px, 250px) scale(2);
     fill: $grey;
 }
 
-.page-four__rock__star {
+.page-four__rock__star,
+.page-five__rock__star {
     transform: translate(30px, 5px) scale(0.8);
     fill: $orange;
 }
@@ -48,7 +55,8 @@
     fill: $grey;
 }
 
-.page-four__fishone {
+.page-four__fishone,
+.page-five__fishone {
     transform: translate(80px, 90px);
     fill: $greyBlue;
     overflow: visible;
