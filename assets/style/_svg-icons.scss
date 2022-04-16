@@ -1,16 +1,48 @@
 .page-four__ground {
     transform: translate(0, 381px); 
     stroke: $sand; 
+    overflow: visible;
 }
 
-.page-four__rock {
+.page-five__ground {
+    transform: translate(150px, 367px) scale(3);
+    fill: $sand;
+}
+
+.page-four__rock,
+.page-five__rock {
     transform: translate(471px, 250px) scale(2);
     fill: $grey;
 }
 
-.page-four__rock__star {
+.page-four__rock__star,
+.page-five__rock__star {
     transform: translate(30px, 5px) scale(0.8);
     fill: $orange;
+}
+
+.page-four__ground__seaweedone {
+    transform: translate(10px, -12px);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedtwo {
+    transform: translate(30px, -8px) scale(0.8);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedthree {
+    transform: translate(44px, -20px) scale(1.07);
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.page-four__ground__seaweedfour {
+    transform: translate(62px, -18px) scale(1.1);
+    fill: $brightGreen;
+    stroke: $brightGreen;
 }
 
 .page-four__ground__pebbleone {
@@ -23,10 +55,47 @@
     fill: $grey;
 }
 
-.page-four__fishone {
-    transform: translate(100px, 130px);
+.page-four__fishone,
+.page-five__fishone {
+    transform: translate(80px, 90px);
     fill: $greyBlue;
+    overflow: visible;
 }
+
+.page-four__fishtwo {
+    transform: translate(280px, 90px);
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishthree {
+    transform: translate(-150px, 340px);
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishfour {
+    transform: translate(-30px, 300px);
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishone * {
+    animation: fishfloat 3s infinite;
+}
+
+.page-four__fishtwo * {
+    animation: fishfloat 5s infinite;
+}
+
+.page-four__fishthree * {
+    animation: fishfloat 4s infinite;
+}
+
+.page-four__fishfour * {
+    animation: fishfloat 7s infinite;
+}
+
 .page-four__ground__star-one {
     fill: $orange;
     transform: translate(100px, 90px);
