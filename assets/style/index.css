@@ -13,8 +13,8 @@ add fonts, choose good font combination*/
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -27,8 +27,8 @@ add fonts, choose good font combination*/
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -103,14 +103,51 @@ body > div > * {
 }
 
 .page-four__fishone {
-  -webkit-transform: translate(100px, 130px);
-          transform: translate(100px, 130px);
+  -webkit-transform: translate(80px, 90px);
+          transform: translate(80px, 90px);
   fill: #7899BF;
+  overflow: visible;
+}
+
+.page-four__fishtwo {
+  -webkit-transform: translate(280px, 90px);
+          transform: translate(280px, 90px);
+  fill: #7899BF;
+  overflow: visible;
+}
+
+.page-four__fishthree {
+  -webkit-transform: translate(-150px, 340px);
+          transform: translate(-150px, 340px);
+  fill: #7899BF;
+  overflow: visible;
+}
+
+.page-four__fishfour {
+  -webkit-transform: translate(-30px, 300px);
+          transform: translate(-30px, 300px);
+  fill: #7899BF;
+  overflow: visible;
 }
 
 .page-four__fishone * {
   -webkit-animation: fishfloat 3s infinite;
           animation: fishfloat 3s infinite;
+}
+
+.page-four__fishtwo * {
+  -webkit-animation: fishfloat 5s infinite;
+          animation: fishfloat 5s infinite;
+}
+
+.page-four__fishthree * {
+  -webkit-animation: fishfloat 4s infinite;
+          animation: fishfloat 4s infinite;
+}
+
+.page-four__fishfour * {
+  -webkit-animation: fishfloat 7s infinite;
+          animation: fishfloat 7s infinite;
 }
 
 .page-four__ground__star-one {

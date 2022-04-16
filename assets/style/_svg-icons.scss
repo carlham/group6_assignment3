@@ -24,12 +24,43 @@
 }
 
 .page-four__fishone {
-    transform: translate(100px, 130px);
+    transform: translate(80px, 90px);
     fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishtwo {
+    transform: translate(280px, 90px);
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishthree {
+    transform: translate(-150px, 340px);
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.page-four__fishfour {
+    transform: translate(-30px, 300px);
+    fill: $greyBlue;
+    overflow: visible;
 }
 
 .page-four__fishone * {
     animation: fishfloat 3s infinite;
+}
+
+.page-four__fishtwo * {
+    animation: fishfloat 5s infinite;
+}
+
+.page-four__fishthree * {
+    animation: fishfloat 4s infinite;
+}
+
+.page-four__fishfour * {
+    animation: fishfloat 7s infinite;
 }
 
 .page-four__ground__star-one {
