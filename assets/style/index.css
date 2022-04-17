@@ -72,282 +72,287 @@ body > div > * {
   }
 }
 
-.page-four__ground {
+.page-four .page-four__ground {
   -webkit-transform: translate(0, 381px);
           transform: translate(0, 381px);
   stroke: #e9d5b6;
   overflow: visible;
 }
 
-.page-five__ground {
-  -webkit-transform: translate(0px, 381px) scale(1);
-          transform: translate(0px, 381px) scale(1);
-  fill: #e9d5b6;
-  overflow: visible;
-}
-
-.page-six__ground {
-  -webkit-transform: translate(0, 410px);
-          transform: translate(0, 410px);
-  stroke: #e9d5b6;
-}
-
-.page-four__rock {
+.page-four .page-four__rock {
   -webkit-transform: translate(471px, 250px) scale(2);
           transform: translate(471px, 250px) scale(2);
   fill: #C4C4C4;
 }
 
-.page-five__rock,
-.page-six__rock {
-  -webkit-transform: translate(480px, 230px) scale(2.5);
-          transform: translate(480px, 230px) scale(2.5);
-  fill: #C4C4C4;
-}
-
-.page-six__rock {
-  -webkit-transform: translate(480px, 254px) scale(2.6);
-          transform: translate(480px, 254px) scale(2.6);
-  fill: #C4C4C4;
-}
-
-.page-four__rock__star {
+.page-four .page-four__rock__star {
   -webkit-transform: translate(30px, 5px) scale(0.8);
           transform: translate(30px, 5px) scale(0.8);
   fill: #E48D3D;
 }
 
-.page-five__rock__star {
-  -webkit-transform: translate(30px, 5px) scale(0.7);
-          transform: translate(30px, 5px) scale(0.7);
-  fill: #E48D3D;
-}
-
-.page-four__ground__seaweedone {
+.page-four .page-four__ground__seaweedone {
   -webkit-transform: translate(10px, -12px);
           transform: translate(10px, -12px);
   fill: #34a333;
   stroke: #34a333;
 }
 
-.page-four__ground__seaweedtwo {
+.page-four .page-four__ground__seaweedtwo {
   -webkit-transform: translate(30px, -8px) scale(0.8);
           transform: translate(30px, -8px) scale(0.8);
   fill: #34a333;
   stroke: #34a333;
 }
 
-.page-four__ground__seaweedthree {
+.page-four .page-four__ground__seaweedthree {
   -webkit-transform: translate(44px, -20px) scale(1.07);
           transform: translate(44px, -20px) scale(1.07);
   fill: #34a333;
   stroke: #34a333;
 }
 
-.page-four__ground__seaweedfour {
+.page-four .page-four__ground__seaweedfour {
   -webkit-transform: translate(62px, -18px) scale(1.1);
           transform: translate(62px, -18px) scale(1.1);
   fill: #34a333;
   stroke: #34a333;
 }
 
-.page-five__ground__seaweedone {
-  -webkit-transform: translate(30px, 8px) scale(1);
-          transform: translate(30px, 8px) scale(1);
-  fill: #34a333;
-  stroke: #34a333;
-}
-
-.page-five__ground__seaweedtwo {
-  -webkit-transform: translate(50px, 12px) scale(0.8);
-          transform: translate(50px, 12px) scale(0.8);
-  fill: #34a333;
-  stroke: #34a333;
-}
-
-.page-five__ground__seaweedthree {
-  -webkit-transform: translate(74px, 8px) scale(1.07);
-          transform: translate(74px, 8px) scale(1.07);
-  fill: #34a333;
-  stroke: #34a333;
-}
-
-.page-six__ground__seaweed {
-  -webkit-transform: translate(44px, 8px) scale(1.4);
-          transform: translate(44px, 8px) scale(1.4);
-  fill: #34a333;
-  stroke: #34a333;
-}
-
-.page-four__ground__pebbleone {
+.page-four .page-four__ground__pebbleone {
   -webkit-transform: translate(130px, 60px) scale(1.6);
           transform: translate(130px, 60px) scale(1.6);
   fill: #C4C4C4;
 }
 
-.page-four__ground__pebbletwo {
+.page-four .page-four__ground__pebbletwo {
   -webkit-transform: translate(300px, 90px) scale(1.6);
           transform: translate(300px, 90px) scale(1.6);
   fill: #C4C4C4;
 }
 
-.page-five__ground__pebbleone {
-  -webkit-transform: translate(130px, 60px) scale(1.6);
-          transform: translate(130px, 60px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-five__ground__pebbletwo {
-  -webkit-transform: translate(300px, 90px) scale(1.6);
-          transform: translate(300px, 90px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-five__ground__pebblethree {
-  -webkit-transform: translate(160px, 100px) scale(1.6);
-          transform: translate(160px, 100px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-five__ground__pebblefour {
-  -webkit-transform: translate(340px, 30px) scale(1.6);
-          transform: translate(340px, 30px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-six__ground__pebbleone {
-  -webkit-transform: translate(130px, 60px) scale(1.6);
-          transform: translate(130px, 60px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-six__ground__pebbletwo {
-  -webkit-transform: translate(260px, 90px) scale(1.6);
-          transform: translate(260px, 90px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-six__ground__pebblethree {
-  -webkit-transform: translate(160px, 130px) scale(1.6);
-          transform: translate(160px, 130px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-six__ground__pebblefour {
-  -webkit-transform: translate(340px, 30px) scale(1.6);
-          transform: translate(340px, 30px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-six__ground__pebblefive {
-  -webkit-transform: translate(340px, 120px) scale(1.6);
-          transform: translate(340px, 120px) scale(1.6);
-  fill: #C4C4C4;
-}
-
-.page-four__fishone,
-.page-five__fishone {
+.page-four .page-four__fishone {
   -webkit-transform: translate(80px, 90px);
           transform: translate(80px, 90px);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-four__fishtwo {
+.page-four .page-four__fishtwo {
   -webkit-transform: translate(280px, 90px);
           transform: translate(280px, 90px);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-four__fishthree {
+.page-four .page-four__fishthree {
   -webkit-transform: translate(-150px, 340px);
           transform: translate(-150px, 340px);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-four__fishfour {
+.page-four .page-four__fishfour {
   -webkit-transform: translate(-30px, 300px);
           transform: translate(-30px, 300px);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-four__fishone * {
+.page-four .page-four__fishone * {
   -webkit-animation: fishfloat 3s infinite;
           animation: fishfloat 3s infinite;
 }
 
-.page-four__fishtwo * {
+.page-four .page-four__fishtwo * {
   -webkit-animation: fishfloat 5s infinite;
           animation: fishfloat 5s infinite;
 }
 
-.page-four__fishthree * {
+.page-four .page-four__fishthree * {
   -webkit-animation: fishfloat 4s infinite;
           animation: fishfloat 4s infinite;
 }
 
-.page-four__fishfour * {
+.page-four .page-four__fishfour * {
   -webkit-animation: fishfloat 7s infinite;
           animation: fishfloat 7s infinite;
 }
 
-.page-five__fishtwo {
+.page-four .page-four__ground__star-one {
+  fill: #E48D3D;
+  -webkit-transform: translate(100px, 90px);
+          transform: translate(100px, 90px);
+}
+
+.page-four .page-four__ground__star-two {
+  -webkit-transform: translate(260px, 20px) scale(1.3);
+          transform: translate(260px, 20px) scale(1.3);
+  fill: #E48D3D;
+}
+
+.page-four .page-four__ground__star-three {
+  -webkit-transform: translate(350px, 40px) scale(1.2);
+          transform: translate(350px, 40px) scale(1.2);
+  fill: #E48D3D;
+}
+
+.page-five .page-five__ground {
+  -webkit-transform: translate(0px, 381px) scale(1);
+          transform: translate(0px, 381px) scale(1);
+  fill: #e9d5b6;
+  overflow: visible;
+}
+
+.page-five .page-five__rock {
+  -webkit-transform: translate(480px, 230px) scale(2.5);
+          transform: translate(480px, 230px) scale(2.5);
+  fill: #C4C4C4;
+}
+
+.page-five .page-five__rock__star {
+  -webkit-transform: translate(30px, 5px) scale(0.7);
+          transform: translate(30px, 5px) scale(0.7);
+  fill: #E48D3D;
+}
+
+.page-five .page-five__ground__seaweedone {
+  -webkit-transform: translate(30px, 8px) scale(1);
+          transform: translate(30px, 8px) scale(1);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-five .page-five__ground__seaweedtwo {
+  -webkit-transform: translate(50px, 12px) scale(0.8);
+          transform: translate(50px, 12px) scale(0.8);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-five .page-five__ground__seaweedthree {
+  -webkit-transform: translate(74px, 8px) scale(1.07);
+          transform: translate(74px, 8px) scale(1.07);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-five .page-five__ground__pebbleone {
+  -webkit-transform: translate(130px, 60px) scale(1.6);
+          transform: translate(130px, 60px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-five .page-five__ground__pebbletwo {
+  -webkit-transform: translate(300px, 90px) scale(1.6);
+          transform: translate(300px, 90px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-five .page-five__ground__pebblethree {
+  -webkit-transform: translate(160px, 100px) scale(1.6);
+          transform: translate(160px, 100px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-five .page-five__ground__pebblefour {
+  -webkit-transform: translate(340px, 30px) scale(1.6);
+          transform: translate(340px, 30px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-five .page-five__fishone {
+  -webkit-transform: translate(80px, 90px);
+          transform: translate(80px, 90px);
+  fill: #7899BF;
+  overflow: visible;
+}
+
+.page-five .page-five__fishtwo {
   -webkit-transform: translate(260px, 270px);
           transform: translate(260px, 270px);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-five__fishthree {
+.page-five .page-five__fishthree {
   -webkit-transform: translate(-150px, 340px) scale(-1, 1);
           transform: translate(-150px, 340px) scale(-1, 1);
   fill: #7899BF;
   overflow: visible;
 }
 
-.page-four__ground__star-one {
+.page-five .page-five__ground__star-one {
   fill: #E48D3D;
   -webkit-transform: translate(100px, 90px);
           transform: translate(100px, 90px);
 }
 
-.page-four__ground__star-two {
+.page-five .page-five__ground__star-two {
   -webkit-transform: translate(260px, 20px) scale(1.3);
           transform: translate(260px, 20px) scale(1.3);
   fill: #E48D3D;
 }
 
-.page-four__ground__star-three {
-  -webkit-transform: translate(350px, 40px) scale(1.2);
-          transform: translate(350px, 40px) scale(1.2);
-  fill: #E48D3D;
-}
-
-.page-five__ground__star-one {
-  fill: #E48D3D;
-  -webkit-transform: translate(100px, 90px);
-          transform: translate(100px, 90px);
-}
-
-.page-five__ground__star-two {
-  -webkit-transform: translate(260px, 20px) scale(1.3);
-          transform: translate(260px, 20px) scale(1.3);
-  fill: #E48D3D;
-}
-
-.page-six__ground__star-one {
-  -webkit-transform: translate(260px, 130px) scale(1.3);
-          transform: translate(260px, 130px) scale(1.3);
-  fill: #E48D3D;
-}
-
-.page-five__bottleone {
+.page-five .page-five__bottleone {
   -webkit-transform: translate(0, 70px);
           transform: translate(0, 70px);
   fill: #39cce2;
+}
+
+.page-six .page-six__ground {
+  -webkit-transform: translate(0, 410px);
+          transform: translate(0, 410px);
+  stroke: #e9d5b6;
+}
+
+.page-six .page-six__rock {
+  -webkit-transform: translate(480px, 230px) scale(2.5);
+          transform: translate(480px, 230px) scale(2.5);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__seaweed {
+  -webkit-transform: translate(44px, 8px) scale(1.4);
+          transform: translate(44px, 8px) scale(1.4);
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.page-six .page-six__ground__pebbleone {
+  -webkit-transform: translate(130px, 60px) scale(1.6);
+          transform: translate(130px, 60px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__pebbletwo {
+  -webkit-transform: translate(260px, 90px) scale(1.6);
+          transform: translate(260px, 90px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__pebblethree {
+  -webkit-transform: translate(160px, 130px) scale(1.6);
+          transform: translate(160px, 130px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__pebblefour {
+  -webkit-transform: translate(340px, 30px) scale(1.6);
+          transform: translate(340px, 30px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__pebblefive {
+  -webkit-transform: translate(340px, 120px) scale(1.6);
+          transform: translate(340px, 120px) scale(1.6);
+  fill: #C4C4C4;
+}
+
+.page-six .page-six__ground__star-one {
+  -webkit-transform: translate(260px, 130px) scale(1.3);
+          transform: translate(260px, 130px) scale(1.3);
+  fill: #E48D3D;
 }
 
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
