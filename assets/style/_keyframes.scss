@@ -10,3 +10,13 @@
         transform: translateY(0);
     }
 }
+
+@keyframes fishtwo__swimaway {
+    0% {
+        transform: translate(260px, 270px);
+    }
+
+    100% {
+        transform: translate(600px, 270px);
+    }
+}

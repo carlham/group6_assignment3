@@ -36,6 +36,28 @@ add fonts, choose good font combination*/
   }
 }
 
+@-webkit-keyframes fishtwo__swimaway {
+  0% {
+    -webkit-transform: translate(260px, 270px);
+            transform: translate(260px, 270px);
+  }
+  100% {
+    -webkit-transform: translate(600px, 270px);
+            transform: translate(600px, 270px);
+  }
+}
+
+@keyframes fishtwo__swimaway {
+  0% {
+    -webkit-transform: translate(260px, 270px);
+            transform: translate(260px, 270px);
+  }
+  100% {
+    -webkit-transform: translate(600px, 270px);
+            transform: translate(600px, 270px);
+  }
+}
+
 /*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
@@ -361,5 +383,16 @@ body > div > * {
 .page-six {
   background-color: #025e73;
   overflow: hidden;
+}
+
+.animator .page-five__fishtwo {
+  -webkit-animation: fishtwo__swimaway 2s ease-in-out;
+          animation: fishtwo__swimaway 2s ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 /*# sourceMappingURL=index.css.map */
