@@ -365,6 +365,16 @@ body>div>* {
     fill: #E48D3D;
 }
 
+.page__seven__text {
+    position: absolute;
+    top: 5370px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    max-width: 345px;
+    text-align: center;
+}
+
 
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
 
