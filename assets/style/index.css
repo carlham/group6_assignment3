@@ -7,7 +7,7 @@ potentially more/differnt colors*/
 /*TODO
 add fonts, choose good font combination*/
 /*all animations go here, svg animations could go in the HTML as well*/
-@-webkit-keyframes fishfloat {
+@-webkit-keyframes floating {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -21,7 +21,7 @@ add fonts, choose good font combination*/
             transform: translateY(0);
   }
 }
-@keyframes fishfloat {
+@keyframes floating {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -58,10 +58,148 @@ add fonts, choose good font combination*/
   }
 }
 
+@-webkit-keyframes bottle__fall {
+  0% {
+    -webkit-transform: translate(40px, -200px);
+            transform: translate(40px, -200px);
+  }
+  100% {
+    -webkit-transform: translate(40px, 100px);
+            transform: translate(40px, 100px);
+  }
+}
+
+@keyframes bottle__fall {
+  0% {
+    -webkit-transform: translate(40px, -200px);
+            transform: translate(40px, -200px);
+  }
+  100% {
+    -webkit-transform: translate(40px, 100px);
+            transform: translate(40px, 100px);
+  }
+}
+
+@-webkit-keyframes bottle__fall__two {
+  0% {
+    -webkit-transform: translate(-300px, -200px);
+            transform: translate(-300px, -200px);
+  }
+  100% {
+    -webkit-transform: translate(-300px, 40px);
+            transform: translate(-300px, 40px);
+  }
+}
+
+@keyframes bottle__fall__two {
+  0% {
+    -webkit-transform: translate(-300px, -200px);
+            transform: translate(-300px, -200px);
+  }
+  100% {
+    -webkit-transform: translate(-300px, 40px);
+            transform: translate(-300px, 40px);
+  }
+}
+
+@-webkit-keyframes fish_swimacross {
+  0% {
+    -webkit-transform: translate(80px, 90px);
+            transform: translate(80px, 90px);
+  }
+  52% {
+    -webkit-transform: translate(530px, 90px);
+            transform: translate(530px, 90px);
+  }
+  60% {
+    -webkit-transform: translate(530px, -180px);
+            transform: translate(530px, -180px);
+  }
+  61% {
+    -webkit-transform: translate(-200px, -180px);
+            transform: translate(-200px, -180px);
+  }
+  68% {
+    -webkit-transform: translate(-200px, 90px);
+            transform: translate(-200px, 90px);
+  }
+  100% {
+    -webkit-transform: translate(80px, 90px);
+            transform: translate(80px, 90px);
+  }
+}
+
+@keyframes fish_swimacross {
+  0% {
+    -webkit-transform: translate(80px, 90px);
+            transform: translate(80px, 90px);
+  }
+  52% {
+    -webkit-transform: translate(530px, 90px);
+            transform: translate(530px, 90px);
+  }
+  60% {
+    -webkit-transform: translate(530px, -180px);
+            transform: translate(530px, -180px);
+  }
+  61% {
+    -webkit-transform: translate(-200px, -180px);
+            transform: translate(-200px, -180px);
+  }
+  68% {
+    -webkit-transform: translate(-200px, 90px);
+            transform: translate(-200px, 90px);
+  }
+  100% {
+    -webkit-transform: translate(80px, 90px);
+            transform: translate(80px, 90px);
+  }
+}
+
+@-webkit-keyframes page-five__fishone__swim {
+  0% {
+    -webkit-transform: translate(80px, 150px);
+            transform: translate(80px, 150px);
+  }
+  1% {
+    -webkit-transform: translate(80px, 150px) scale(-1, 1);
+            transform: translate(80px, 150px) scale(-1, 1);
+  }
+  10% {
+    -webkit-transform: translate(80px, 150px) scale(-1, 1);
+            transform: translate(80px, 150px) scale(-1, 1);
+  }
+  100% {
+    -webkit-transform: translate(-200px, 200px) scale(-1, 1);
+            transform: translate(-200px, 200px) scale(-1, 1);
+  }
+}
+
+@keyframes page-five__fishone__swim {
+  0% {
+    -webkit-transform: translate(80px, 150px);
+            transform: translate(80px, 150px);
+  }
+  1% {
+    -webkit-transform: translate(80px, 150px) scale(-1, 1);
+            transform: translate(80px, 150px) scale(-1, 1);
+  }
+  10% {
+    -webkit-transform: translate(80px, 150px) scale(-1, 1);
+            transform: translate(80px, 150px) scale(-1, 1);
+  }
+  100% {
+    -webkit-transform: translate(-200px, 200px) scale(-1, 1);
+            transform: translate(-200px, 200px) scale(-1, 1);
+  }
+}
+
 /*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
   background-color: #a0ebe3;
+  margin: 0%;
+  padding: 0%;
 }
 
 body > div > * {
@@ -75,7 +213,8 @@ body > div > * {
 .introtext h1 {
   text-align: center;
   height: auto;
-  margin: 150px auto 50px;
+  padding-top: 150px;
+  margin: 0 auto 50px;
   font-size: 3rem;
   background-color: inherit;
 }
@@ -161,8 +300,8 @@ body > div > * {
 }
 
 .page-four .page-four__fishtwo {
-  -webkit-transform: translate(280px, 90px);
-          transform: translate(280px, 90px);
+  -webkit-transform: translate(280px, 60px);
+          transform: translate(280px, 60px);
   fill: #7899BF;
   overflow: visible;
 }
@@ -182,23 +321,23 @@ body > div > * {
 }
 
 .page-four .page-four__fishone * {
-  -webkit-animation: fishfloat 3s infinite;
-          animation: fishfloat 3s infinite;
+  -webkit-animation: fish_swimacross 8s infinite linear;
+          animation: fish_swimacross 8s infinite linear;
 }
 
 .page-four .page-four__fishtwo * {
-  -webkit-animation: fishfloat 5s infinite;
-          animation: fishfloat 5s infinite;
+  -webkit-animation: floating 5s infinite;
+          animation: floating 5s infinite;
 }
 
 .page-four .page-four__fishthree * {
-  -webkit-animation: fishfloat 4s infinite;
-          animation: fishfloat 4s infinite;
+  -webkit-animation: floating 4s infinite;
+          animation: floating 4s infinite;
 }
 
 .page-four .page-four__fishfour * {
-  -webkit-animation: fishfloat 7s infinite;
-          animation: fishfloat 7s infinite;
+  -webkit-animation: floating 7s infinite;
+          animation: floating 7s infinite;
 }
 
 .page-four .page-four__ground__star-one {
@@ -284,8 +423,8 @@ body > div > * {
 }
 
 .page-five .page-five__fishone {
-  -webkit-transform: translate(80px, 90px);
-          transform: translate(80px, 90px);
+  -webkit-transform: translate(80px, 150px);
+          transform: translate(80px, 150px);
   fill: #7899BF;
   overflow: visible;
 }
@@ -304,6 +443,21 @@ body > div > * {
   overflow: visible;
 }
 
+.page-five .page-five__fishone * {
+  -webkit-animation: floating 4s infinite;
+          animation: floating 4s infinite;
+}
+
+.page-five .page-five__fishtwo * {
+  -webkit-animation: floating 6s infinite;
+          animation: floating 6s infinite;
+}
+
+.page-five .page-five__fishthree * {
+  -webkit-animation: floating 8s infinite;
+          animation: floating 8s infinite;
+}
+
 .page-five .page-five__ground__star-one {
   fill: #E48D3D;
   -webkit-transform: translate(100px, 90px);
@@ -317,9 +471,27 @@ body > div > * {
 }
 
 .page-five .page-five__bottleone {
-  -webkit-transform: translate(0, 70px);
-          transform: translate(0, 70px);
+  -webkit-transform: translate(0, -200px);
+          transform: translate(0, -200px);
   fill: #39cce2;
+  overflow: visible;
+}
+
+.page-five .page-five__bottleone * {
+  -webkit-animation: floating 4s infinite;
+          animation: floating 4s infinite;
+}
+
+.page-five .page-five__bottletwo {
+  -webkit-transform: translate(-300px, -200px);
+          transform: translate(-300px, -200px);
+  fill: #39cce2;
+  overflow: visible;
+}
+
+.page-five .page-five__bottletwo * {
+  -webkit-animation: floating 6s infinite;
+          animation: floating 6s infinite;
 }
 
 .page-six .page-six__ground {
@@ -394,5 +566,34 @@ body > div > * {
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+.animator .page-five__bottleone {
+  -webkit-animation: bottle__fall 2s ease-in-out;
+          animation: bottle__fall 2s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animator .page-five__bottletwo {
+  -webkit-animation: bottle__fall__two 4s ease-in-out;
+          animation: bottle__fall__two 4s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animator .page-five__fishone {
+  -webkit-animation: page-five__fishone__swim 4s ease-in-out;
+          animation: page-five__fishone__swim 4s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3500ms;
+          animation-delay: 3500ms;
 }
 /*# sourceMappingURL=index.css.map */
