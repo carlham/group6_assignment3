@@ -5,3 +5,32 @@
     background-color: $navy;
     overflow: hidden;
 }
+
+
+.animator {
+    .page-five__fishtwo {
+        animation: fishtwo__swimaway 2s ease-in-out;
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .page-five__bottleone {
+        animation: bottle__fall 2s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .page-five__bottletwo {
+        animation: bottle__fall__two 4s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .page-five__fishone {
+        animation: page-five__fishone__swim 4s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3500ms;
+    }
+}
