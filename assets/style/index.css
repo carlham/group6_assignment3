@@ -234,6 +234,30 @@ add fonts, choose good font combination*/
     }
 }
 
+@-webkit-keyframes bag-float {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+    50% {
+        -webkit-transform: translateX(20px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes bag-float {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+    50% {
+        -webkit-transform: translateX(20px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
 
 /*initial layout, might rework/set up flex later*/
 
@@ -646,6 +670,11 @@ body>div>* {
 .page__seven__fish {
     -webkit-animation: fish-bounce 2s ease infinite;
     animation: fish-bounce 2s ease infinite;
+}
+
+.page-seven__bag {
+    -webkit-animation: bag-float 3s infinite;
+    animation: bag-float 3s infinite;
 }
 
 .page__seven__text {
