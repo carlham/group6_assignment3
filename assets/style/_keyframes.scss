@@ -77,12 +77,12 @@
 
 @keyframes sharkSwims {
     0% {
-        margin-left: -235px;
+        transform: translate(0, 0) rotateY(0deg);
     }
-    70% {
-        margin-left: 100%;
+    50% {
+        transform: translate(180px, 0) rotateY(0deg);
     }
     100% {
-        margin-left: 100%;
+        transform: translate(0, 0) rotateY(0deg);
     }
 }

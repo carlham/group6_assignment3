@@ -223,5 +223,7 @@
 }
 
 .page-seven {
-    .page__seven__fish {}
+    .page__seven__fish {
+        animation: sharkSwims 20s linear infinite;
+    }
 }
