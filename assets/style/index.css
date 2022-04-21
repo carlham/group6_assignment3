@@ -200,7 +200,7 @@ add fonts, choose good font combination*/
     }
 }
 
-@-webkit-keyframes bag-float {
+@-webkit-keyframes fish-bounce {
     0% {
         transform: scale(1);
     }
@@ -217,7 +217,7 @@ add fonts, choose good font combination*/
     }
 }
 
-@keyframes bag-float {
+@keyframes fish-bounce {
     0% {
         transform: scale(1);
     }
@@ -643,9 +643,9 @@ body>div>* {
     animation-delay: 3500ms;
 }
 
-.page-seven__bag {
-    -webkit-animation: bag-float 2s ease infinite;
-    animation: bag-float 2s ease infinite;
+.page__seven__fish {
+    -webkit-animation: fish-bounce 2s ease infinite;
+    animation: fish-bounce 2s ease infinite;
 }
 
 .page__seven__text {
