@@ -34,3 +34,13 @@
         animation-delay: 3500ms;
     }
 }
+
+.page__seven__text {
+    position: absolute;
+    top: 5370px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    max-width: 345px;
+    text-align: center;
+}
