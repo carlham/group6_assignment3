@@ -1,105 +1,85 @@
 .page-four {
-
     .page-four__ground {
         transform: translate(0, 381px);
         stroke: $sand;
         overflow: visible;
     }
-
     .page-four__rock {
         transform: translate(471px, 250px) scale(2);
         fill: $grey;
     }
-
     .page-four__rock__star {
         transform: translate(30px, 5px) scale(0.8);
         fill: $orange;
     }
-
     .page-four__ground__seaweedone {
         transform: translate(10px, -12px);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-four__ground__seaweedtwo {
         transform: translate(30px, -8px) scale(0.8);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-four__ground__seaweedthree {
         transform: translate(44px, -20px) scale(1.07);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-four__ground__seaweedfour {
         transform: translate(62px, -18px) scale(1.1);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-four__ground__pebbleone {
         transform: translate(130px, 60px) scale(1.6);
         fill: $grey;
     }
-
     .page-four__ground__pebbletwo {
         transform: translate(300px, 90px) scale(1.6);
         fill: $grey;
     }
-
     .page-four__fishone {
         transform: translate(80px, 90px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-four__fishtwo {
         transform: translate(280px, 60px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-four__fishthree {
         transform: translate(-150px, 340px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-four__fishfour {
         transform: translate(-30px, 300px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-four__fishone * {
         animation: fish_swimacross 8s infinite linear;
     }
-
     .page-four__fishtwo * {
         animation: floating 5s infinite;
     }
-
     .page-four__fishthree * {
         animation: floating 4s infinite;
     }
-
     .page-four__fishfour * {
         animation: floating 7s infinite;
     }
-
     .page-four__ground__star-one {
         fill: $orange;
         transform: translate(100px, 90px);
     }
-
     .page-four__ground__star-two {
         transform: translate(260px, 20px) scale(1.3);
         fill: $orange;
     }
-
     .page-four__ground__star-three {
         transform: translate(350px, 40px) scale(1.2);
         fill: $orange;
@@ -107,112 +87,91 @@
 }
 
 .page-five {
-
     .page-five__ground {
         transform: translate(0px, 381px) scale(1);
         fill: $sand;
         overflow: visible;
     }
-
     .page-five__rock {
         transform: translate(480px, 230px) scale(2.5);
         fill: $grey;
     }
-
     .page-five__rock__star {
         transform: translate(30px, 5px) scale(0.7);
         fill: $orange;
     }
-
     .page-five__ground__seaweedone {
         transform: translate(30px, 8px) scale(1);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-five__ground__seaweedtwo {
         transform: translate(50px, 12px) scale(0.8);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-five__ground__seaweedthree {
         transform: translate(74px, 8px) scale(1.07);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-five__ground__pebbleone {
         transform: translate(130px, 60px) scale(1.6);
         fill: $grey;
     }
-
     .page-five__ground__pebbletwo {
         transform: translate(300px, 90px) scale(1.6);
         fill: $grey;
     }
-
     .page-five__ground__pebblethree {
         transform: translate(160px, 100px) scale(1.6);
         fill: $grey;
     }
-
     .page-five__ground__pebblefour {
         transform: translate(340px, 30px) scale(1.6);
         fill: $grey;
     }
-
     .page-five__fishone {
         transform: translate(80px, 150px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-five__fishtwo {
         transform: translate(260px, 270px);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-five__fishthree {
         transform: translate(-150px, 340px) scale(-1, 1);
         fill: $greyBlue;
         overflow: visible;
     }
-
     .page-five__fishone * {
         animation: floating 4s infinite;
     }
-
     .page-five__fishtwo * {
         animation: floating 6s infinite;
     }
-
     .page-five__fishthree * {
         animation: floating 8s infinite;
     }
-
     .page-five__ground__star-one {
         fill: $orange;
         transform: translate(100px, 90px);
     }
-
     .page-five__ground__star-two {
         transform: translate(260px, 20px) scale(1.3);
         fill: $orange;
     }
-
     // float into place w scrollama
     .page-five__bottleone {
         transform: translate(0, -200px);
         fill: $steelBlueLight;
         overflow: visible;
     }
-
     .page-five__bottleone * {
         animation: floating 4s infinite;
     }
-
     .page-five__bottletwo {
         transform: translate(-300px, -200px);
         fill: $steelBlueLight;
@@ -224,50 +183,45 @@
 }
 
 .page-six {
-
     .page-six__ground {
         transform: translate(0, 410px);
         stroke: $sand;
     }
-
     .page-six__rock {
         transform: translate(480px, 258px) scale(2.5);
         fill: $grey;
     }
-
     .page-six__ground__seaweed {
         transform: translate(44px, 8px) scale(1.4);
         fill: $brightGreen;
         stroke: $brightGreen;
     }
-
     .page-six__ground__pebbleone {
         transform: translate(130px, 60px) scale(1.6);
         fill: $grey;
     }
-
     .page-six__ground__pebbletwo {
         transform: translate(260px, 90px) scale(1.6);
         fill: $grey;
     }
-
     .page-six__ground__pebblethree {
         transform: translate(160px, 130px) scale(1.6);
         fill: $grey;
     }
-
     .page-six__ground__pebblefour {
         transform: translate(340px, 30px) scale(1.6);
         fill: $grey;
     }
-
     .page-six__ground__pebblefive {
         transform: translate(340px, 120px) scale(1.6);
         fill: $grey;
     }
-
     .page-six__ground__star-one {
         transform: translate(260px, 130px) scale(1.3);
         fill: $orange;
     }
+}
+
+.page-seven {
+    .page__seven__fish {}
 }

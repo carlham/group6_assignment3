@@ -1,12 +1,13 @@
 /*all animations go here, svg animations could go in the HTML as well*/
+
 @keyframes floating {
     0% {
         transform: translateY(0);
     }
-    50%{
+    50% {
         transform: translateY(20px);
     }
-    100%{
+    100% {
         transform: translateY(0);
     }
 }
@@ -15,18 +16,15 @@
     0% {
         transform: translate(260px, 270px);
     }
-
     100% {
         transform: translate(600px, 270px);
     }
 }
 
-
 @keyframes bottle__fall {
     0% {
         transform: translate(40px, -200px);
     }
-
     100% {
         transform: translate(40px, 100px);
     }
@@ -36,7 +34,6 @@
     0% {
         transform: translate(-300px, -200px);
     }
-
     100% {
         transform: translate(-300px, 40px);
     }
@@ -75,5 +72,17 @@
     }
     100% {
         transform: translate(-200px, 200px) scale(-1, 1);
+    }
+}
+
+@keyframes sharkSwims {
+    0% {
+        margin-left: -235px;
+    }
+    70% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 100%;
     }
 }
