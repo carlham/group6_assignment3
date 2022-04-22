@@ -232,3 +232,18 @@
             animation: bag-float 5s ease infinite;
         }
     }
+    
+    .page-eight {
+        .page__eight__plastic {
+            -webkit-animation: plastic-bounce 4s ease infinite;
+            animation: plastic-bounce 4s ease infinite;
+        }
+        .page__eight__cup {
+            -webkit-animation: plastic-shake 4s ease infinite;
+            animation: plastic-shake 4s ease infinite;
+        }
+        .page__eight__div-plastic {
+            -webkit-animation: div-plastic 5s linear infinite;
+            animation: div-plastic 5s linear infinite;
+        }
+    }
