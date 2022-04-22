@@ -202,59 +202,65 @@ add fonts, choose good font combination*/
 
 @-webkit-keyframes fish-bounce {
     0% {
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(.95);
-    }
-    50% {
         opacity: 1;
-        transform: scale(1.1);
     }
     100% {
         opacity: 0;
-        transform: scale(.3);
     }
 }
 
 @keyframes fish-bounce {
     0% {
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(.95);
-    }
-    50% {
         opacity: 1;
-        transform: scale(1.1);
     }
     100% {
         opacity: 0;
-        transform: scale(.3);
     }
 }
 
 @-webkit-keyframes bag-float {
-    0% {
-        -webkit-transform: translateX(0);
-    }
-    50% {
-        -webkit-transform: translateX(20px);
-    }
+    0%,
     100% {
         -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
     }
 }
 
 @keyframes bag-float {
-    0% {
-        -webkit-transform: translateX(0);
-    }
-    50% {
-        -webkit-transform: translateX(20px);
-    }
+    0%,
     100% {
         -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
     }
 }
 
@@ -668,13 +674,13 @@ body>div>* {
 }
 
 .page__seven__fish {
-    -webkit-animation: fish-bounce 2s ease infinite;
-    animation: fish-bounce 2s ease infinite;
+    -webkit-animation: fish-bounce 5s linear infinite;
+    animation: fish-bounce 5s linear infinite;
 }
 
 .page-seven__bag {
-    -webkit-animation: bag-float 3s infinite;
-    animation: bag-float 3s infinite;
+    -webkit-animation: bag-float 5s ease infinite;
+    animation: bag-float 5s ease infinite;
 }
 
 .page__seven__text {

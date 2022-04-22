@@ -224,11 +224,11 @@
     
     .page-seven {
         .page__seven__fish {
-            -webkit-animation: fish-bounce 2s ease infinite;
-            animation: fish-bounce 2s ease infinite;
+            -webkit-animation: fish-bounce 5s linear infinite;
+            animation: fish-bounce 5s linear infinite;
         }
         .page-seven__bag {
-            -webkit-animation: bag-float 3s infinite;
-            animation: bag-float 3s infinite;
+            -webkit-animation: bag-float 5s ease infinite;
+            animation: bag-float 5s ease infinite;
         }
     }
