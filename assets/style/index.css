@@ -495,14 +495,14 @@ body > div > * {
 }
 
 .page-six .page-six__ground {
-  -webkit-transform: translate(0, 410px);
-          transform: translate(0, 410px);
+  -webkit-transform: translate(0, 332px);
+          transform: translate(0, 332px);
   stroke: #e9d5b6;
 }
 
 .page-six .page-six__rock {
-  -webkit-transform: translate(480px, 258px) scale(2.5);
-          transform: translate(480px, 258px) scale(2.5);
+  -webkit-transform: translate(480px, 180px) scale(2.5);
+          transform: translate(480px, 180px) scale(2.5);
   fill: #C4C4C4;
 }
 
@@ -544,9 +544,52 @@ body > div > * {
 }
 
 .page-six .page-six__ground__star-one {
-  -webkit-transform: translate(260px, 130px) scale(1.3);
-          transform: translate(260px, 130px) scale(1.3);
+  -webkit-transform: translate(80px, 110px) scale(0.7);
+          transform: translate(80px, 110px) scale(0.7);
   fill: #E48D3D;
+}
+
+.page-six .page-six__fishone {
+  -webkit-transform: translate(30px, 270px);
+          transform: translate(30px, 270px);
+  fill: #7899BF;
+  overflow: visible;
+}
+
+.page-six .page-six__fishone * {
+  -webkit-animation: floating 10s infinite;
+          animation: floating 10s infinite;
+}
+
+.page-six .page-six__bottleone {
+  -webkit-transform: translate(0, 20px) scale(1.1) rotate(-20deg);
+          transform: translate(0, 20px) scale(1.1) rotate(-20deg);
+  fill: #39cce2;
+  overflow: visible;
+}
+
+.page-six .page-six__bottleone * {
+  -webkit-animation: floating 4s infinite;
+          animation: floating 4s infinite;
+}
+
+.page-six .page-six__bottletwo {
+  -webkit-transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
+          transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
+  fill: #39cce2;
+  overflow: visible;
+}
+
+.page-six .page-six__bottletwo * {
+  -webkit-animation: floating 6s infinite;
+          animation: floating 6s infinite;
+}
+
+.page-six .page-six__ground__bottleone {
+  -webkit-transform: translate(335px, 50px) scale(0.8);
+          transform: translate(335px, 50px) scale(0.8);
+  fill: #39cce2;
+  overflow: visible;
 }
 
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/

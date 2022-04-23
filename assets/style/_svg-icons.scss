@@ -226,12 +226,12 @@
 .page-six {
 
     .page-six__ground {
-        transform: translate(0, 410px);
+        transform: translate(0, 332px);
         stroke: $sand;
     }
 
     .page-six__rock {
-        transform: translate(480px, 258px) scale(2.5);
+        transform: translate(480px, 180px) scale(2.5);
         fill: $grey;
     }
 
@@ -267,7 +267,43 @@
     }
 
     .page-six__ground__star-one {
-        transform: translate(260px, 130px) scale(1.3);
+        transform: translate(80px, 110px) scale(0.7);
         fill: $orange;
+    }
+
+    .page-six__fishone {
+        transform: translate(30px, 270px);
+        fill: $greyBlue;
+        overflow: visible;
+    }
+
+    .page-six__fishone * {
+        animation: floating 10s infinite;
+    }
+
+    .page-six__bottleone {
+        transform: translate(0, 20px) scale(1.1) rotate(-20deg);
+        fill: $steelBlueLight;
+        overflow: visible;
+    }
+
+    .page-six__bottleone * {
+        animation: floating 4s infinite;
+    }
+
+    .page-six__bottletwo {
+        transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
+        fill: $steelBlueLight;
+        overflow: visible;
+    }
+    
+    .page-six__bottletwo * {
+        animation: floating 6s infinite;
+    }
+
+    .page-six__ground__bottleone {
+        transform: translate(335px, 50px) scale(0.8);
+        fill: $steelBlueLight;
+        overflow: visible;
     }
 }
