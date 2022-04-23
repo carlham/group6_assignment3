@@ -228,8 +228,20 @@ body > div > * {
 /* all media-query related here*/
 @media (prefers-reduced-motion) {
   * {
-    -webkit-animation: none;
-            animation: none;
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .page-five .page-five__bottletwo {
+    -webkit-transform: translate(40px, 100px) !important;
+            transform: translate(40px, 100px) !important;
+  }
+  .page-five .page-five__bottleone {
+    -webkit-transform: translate(-300px, 40px) !important;
+            transform: translate(-300px, 40px) !important;
+  }
+  .page-five .page-five__fishone {
+    -webkit-transform: translate(-200px, -200px) !important;
+            transform: translate(-200px, -200px) !important;
   }
 }
 
@@ -300,8 +312,8 @@ body > div > * {
 }
 
 .page-four .page-four__fishtwo {
-  -webkit-transform: translate(280px, 60px);
-          transform: translate(280px, 60px);
+  -webkit-transform: translate(160px, 50px);
+          transform: translate(160px, 50px);
   fill: #7899BF;
   overflow: visible;
 }
@@ -328,6 +340,8 @@ body > div > * {
 .page-four .page-four__fishtwo * {
   -webkit-animation: floating 5s infinite;
           animation: floating 5s infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .page-four .page-four__fishthree * {
@@ -557,20 +571,20 @@ body > div > * {
 }
 
 .page-six .page-six__fishone * {
-  -webkit-animation: floating 10s infinite;
-          animation: floating 10s infinite;
+  -webkit-animation: floating 12s infinite;
+          animation: floating 12s infinite;
 }
 
 .page-six .page-six__bottleone {
-  -webkit-transform: translate(0, 20px) scale(1.1) rotate(-20deg);
-          transform: translate(0, 20px) scale(1.1) rotate(-20deg);
+  -webkit-transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
+          transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
   fill: #39cce2;
   overflow: visible;
 }
 
 .page-six .page-six__bottleone * {
-  -webkit-animation: floating 4s infinite;
-          animation: floating 4s infinite;
+  -webkit-animation: floating 5s infinite;
+          animation: floating 5s infinite;
 }
 
 .page-six .page-six__bottletwo {
@@ -581,8 +595,8 @@ body > div > * {
 }
 
 .page-six .page-six__bottletwo * {
-  -webkit-animation: floating 6s infinite;
-          animation: floating 6s infinite;
+  -webkit-animation: floating 7s infinite;
+          animation: floating 7s infinite;
 }
 
 .page-six .page-six__ground__bottleone {

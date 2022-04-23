@@ -57,7 +57,7 @@
     }
 
     .page-four__fishtwo {
-        transform: translate(280px, 60px);
+        transform: translate(160px, 50px);
         fill: $greyBlue;
         overflow: visible;
     }
@@ -80,6 +80,7 @@
 
     .page-four__fishtwo * {
         animation: floating 5s infinite;
+        animation-delay: 3s;
     }
 
     .page-four__fishthree * {
@@ -278,17 +279,17 @@
     }
 
     .page-six__fishone * {
-        animation: floating 10s infinite;
+        animation: floating 12s infinite;
     }
 
     .page-six__bottleone {
-        transform: translate(0, 20px) scale(1.1) rotate(-20deg);
+        transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
         fill: $steelBlueLight;
         overflow: visible;
     }
 
     .page-six__bottleone * {
-        animation: floating 4s infinite;
+        animation: floating 5s infinite;
     }
 
     .page-six__bottletwo {
@@ -298,7 +299,7 @@
     }
     
     .page-six__bottletwo * {
-        animation: floating 6s infinite;
+        animation: floating 7s infinite;
     }
 
     .page-six__ground__bottleone {
