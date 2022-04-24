@@ -342,6 +342,72 @@ add fonts, choose good font combination*/
     }
 }
 
+@-webkit-keyframes earth {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes earth {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes left-hand {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes left-hand {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes right-hand {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes right-hand {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
 
 /*initial layout, might rework/set up flex later*/
 
@@ -785,6 +851,21 @@ body>div>* {
 .page__eight__div-plastic {
     -webkit-animation: div-plastic 5s linear infinite;
     animation: div-plastic 5s linear infinite;
+}
+
+.page__nine__earth {
+    -webkit-animation: earth 5s ease infinite;
+    animation: earth 5s ease infinite;
+}
+
+.page__nine__left-hand {
+    -webkit-animation: left-hand 5s ease infinite;
+    animation: left-hand 5s ease infinite;
+}
+
+.page__nine__right-hand {
+    -webkit-animation: right-hand 5s ease infinite;
+    animation: right-hand 5s ease infinite;
 }
 
 

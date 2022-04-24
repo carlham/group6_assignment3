@@ -145,3 +145,36 @@
         opacity: 1;
     }
 }
+
+@keyframes earth {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left-hand {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes right-hand {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%) rotate(-120deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) rotate(0deg);
+    }
+}

@@ -247,3 +247,18 @@
             animation: div-plastic 5s linear infinite;
         }
     }
+    
+    .page-nine {
+        .page__nine__earth {
+            -webkit-animation: earth 5s ease infinite;
+            animation: earth 5s ease infinite;
+        }
+        .page__nine__left-hand {
+            -webkit-animation: left-hand 5s ease infinite;
+            animation: left-hand 5s ease infinite;
+        }
+        .page__nine__right-hand {
+            -webkit-animation: right-hand 5s ease infinite;
+            animation: right-hand 5s ease infinite;
+        }
+    }
