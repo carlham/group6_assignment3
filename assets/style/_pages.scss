@@ -36,11 +36,10 @@
 }
 
 .page__seven__text {
-    position: absolute;
-    top: 5370px;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 2rem;
+    position: absolute;
+    transform: translate(40%, 30px);
     max-width: 345px;
+    margin: 0 auto ;
     text-align: center;
 }
