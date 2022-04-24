@@ -7,14 +7,18 @@
     }
     .page-front_cloud_1{
         transform: translateX(270px);
+        animation: slide-out-left 20s linear both;
     }
     .page-front_cloud_2{
         transform: translate(150px, -50px);
+        animation: slide-out-left1 20s linear both;
     }
     .page-front_cloud_3{
-    transform: translate(200px, 120px);}
+    transform: translate(200px, 120px);
+    animation: slide-out-left2 20s linear both;}
     .page-front_cloud_4{
         transform: translate(100px, 220px);
+        animation: slide-out-left3 20s linear both;
     }
 }
 .page-one{
