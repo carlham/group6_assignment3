@@ -223,6 +223,7 @@ body > div > * {
   background-color: inherit;
   margin: 0 auto;
   height: auto;
+  text-align: center;
 }
 
 /* all media-query related here*/
