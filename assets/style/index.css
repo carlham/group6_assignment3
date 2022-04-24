@@ -400,6 +400,8 @@ p {
   max-width: 65ch;
 }
 
+/* dosent work, I tried different stuff and asked for help but I couldnt find the problem why this dosent work,
+*/
 .info {
   -webkit-animation: textbox 30s linear 19s both;
           animation: textbox 30s linear 19s both;

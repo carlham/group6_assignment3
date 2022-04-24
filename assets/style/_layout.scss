@@ -14,7 +14,8 @@ body>div>* {
 p{
     max-width: 65ch;
 }
-/* So idk funker ikke hos meg og dette gjør ingen ting
+/* dosent work, I tried different stuff and asked for help but I couldnt find the problem why this dosent work,
+*/
 .info{
 animation: textbox 30s linear 19s both;
     opacity: 0;
@@ -24,7 +25,7 @@ animation: textbox 30s linear 19s both;
     border-color: $green;
     border-radius: 8px;
 }
-*/
+
 
 .introtext {
 
