@@ -40,22 +40,30 @@
     }
 }
 .page-two{
+   
     .page-two_duck{
         transform: translate(330px, -20px);
     }
     .page-two_fishes{
         transform: translateY(120px);
+       
     }
     .page-two_fish1{
         transform: translate(10px, 120px);
+        animation: fish-swim 20s linear;
+        opacity: 0;
     }
     .page-two_fish2{
         transform: translate(10px, 150px);
+        animation: fish-swim2 20s linear;
+        opacity: 0;
     }
     .page-two_fish3{
         transform: translate(-200px, 200px);
+        animation: fish-swim3 20s linear;
+        opacity: 0;
     }
-    .page-two_text1{}
+    
     .page-two_strip1-under{
         animation: wave 4s ease-out infinite
     }
@@ -72,12 +80,13 @@
 .page-three{
     .page-three_fish4{
         transform: translate(50px, 350px);
+        animation: fish-swim4 10s linear;
+        opacity: 0;
     }
-    .page-three_fish5{
-        transform: translate(290px, 50px) rotateY(180deg);
-    
+   
+    .page-three_text2{
+        animation: textbox1;
     }
-    .page-three_text2{}
     .page-three_ground{
         transform: translate(-107px, 350px);
     }
