@@ -2,7 +2,87 @@
     .cloud{
         overflow: visible;
     }
+    .page-front_text{
+        transform: translateY(250px);
+    }
+    .page-front_cloud_1{
+        transform: translateX(270px);
+    }
+    .page-front_cloud_2{
+        transform: translate(150px, -50px);
+    }
+    .page-front_cloud_3{
+    transform: translate(200px, 120px);}
+    .page-front_cloud_4{
+        transform: translate(100px, 220px);
+    }
+}
+.page-one{
+    .page-one_duck{
+        transform: translate(330px, 500px);
+    }
+    .page-one_strip1-above{
+        
+    }
+    .page-one_strip2-above{
 
+    }
+    .page-one_strip3-above{
+
+    }
+    .page-one_strip4-above{
+        transform: translate(-10px, 5px);
+    }
+}
+.page-two{
+    .page-two_duck{
+        transform: translate(330px, -20px);
+    }
+    .page-two_fishes{
+        transform: translateY(120px);
+    }
+    .page-two_fish1{
+        transform: translate(10px, 120px);
+    }
+    .page-two_fish2{
+        transform: translate(10px, 150px);
+    }
+    .page-two_fish3{
+        transform: translate(-200px, 200px);
+    }
+    .page-two_text1{}
+}
+.page-three{
+    .page-three_fish4{
+        transform: translate(50px, 350px);
+    }
+    .page-three_fish5{
+        transform: translate(290px, 50px) rotateY(180deg);
+    
+    }
+    .page-three_text2{}
+    .page-three_ground{
+        transform: translate(-107px, 350px);
+    }
+    .page-three_stone{
+        transform: translate(400px, 150px);
+    }
+    .page-three_starfish{
+        transform: translate(270px, 10px);
+    }
+    .page-three_seaweed_1{
+        transform: translate(-200px, 100px);
+
+    }
+    .page-three_seaweed_2{
+        transform: translate(-240px, 110px);
+    }
+    .page-three_seaweed_3{
+        transform: translate(-225px, 106px);
+    }
+    .page-three_seaweed_4{
+        transform: translate(-230px, 100px);
+    }
 }
 .page-four {
 

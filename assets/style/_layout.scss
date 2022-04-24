@@ -11,6 +11,9 @@ body>div>* {
     background-color: $cadetBlue; /*background color just for visibility for now*/
     margin: 100px auto;
 }
+p{
+    max-width: 65ch;
+}
 
 .introtext {
 
@@ -28,3 +31,4 @@ body>div>* {
         height: auto;
     }
 }
+
