@@ -308,3 +308,43 @@
         overflow: visible;
     }
 }
+    
+    .page-eight {
+        .page__eight__plastic {
+            -webkit-animation: plastic-bounce 4s ease infinite;
+            animation: plastic-bounce 4s ease infinite;
+        }
+        .page__eight__cup {
+            -webkit-animation: plastic-shake 4s ease infinite;
+            animation: plastic-shake 4s ease infinite;
+        }
+        .page__eight__div-plastic {
+            -webkit-animation: div-plastic 5s linear infinite;
+            animation: div-plastic 5s linear infinite;
+        }
+    }
+    
+    .page-nine {
+        .page__nine__text {
+            position: absolute;
+            top: 6770px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 2rem;
+            max-width: 345px;
+            text-align: center;
+        }
+        .page__nine__earth {
+            -webkit-animation: earth 5s ease infinite;
+            animation: earth 5s ease infinite;
+        }
+        .page__nine__left-hand {
+            -webkit-animation: left-hand 5s ease infinite;
+            animation: left-hand 5s ease infinite;
+        }
+        .page__nine__fish-float {
+            -webkit-animation: fish-float 5s infinite;
+            animation: fish-float 5s infinite;
+        }
+    }
