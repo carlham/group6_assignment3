@@ -26,16 +26,17 @@
         transform: translate(330px, 500px);
     }
     .page-one_strip1-above{
-        
+        animation: wave 4s ease-out infinite;
     }
     .page-one_strip2-above{
-
+        animation: wave2 4s ease-out infinite;
     }
     .page-one_strip3-above{
-
+        animation: wave2 4s ease-out infinite;
     }
     .page-one_strip4-above{
         transform: translate(-10px, 5px);
+        animation: wave 4s ease-out infinite;
     }
 }
 .page-two{
@@ -55,6 +56,18 @@
         transform: translate(-200px, 200px);
     }
     .page-two_text1{}
+    .page-two_strip1-under{
+        animation: wave 4s ease-out infinite
+    }
+    .page-two_strip2-under{
+        animation: wave2 4s ease-out infinite
+    }
+    .page-two_strip3-under{
+        animation: wave2 4s ease-out infinite
+    }
+    .page-two_strip4-under{
+        animation: wave 4s ease-out infinite
+    }
 }
 .page-three{
     .page-three_fish4{
