@@ -386,25 +386,33 @@ add fonts, choose good font combination*/
     }
 }
 
-@-webkit-keyframes right-hand {
+@-webkit-keyframes fish-float {
     0% {
-        opacity: 0;
-        transform: translateY(-100%) rotate(-120deg);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
     }
     100% {
-        opacity: 1;
-        transform: translateY(0px) rotate(0deg);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
 }
 
-@keyframes right-hand {
+@keyframes fish-float {
     0% {
-        opacity: 0;
-        transform: translateY(-100%) rotate(-120deg);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
     }
     100% {
-        opacity: 1;
-        transform: translateY(0px) rotate(0deg);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
 }
 
@@ -838,6 +846,28 @@ body>div>* {
     text-align: center;
 }
 
+.page__nine__text {
+    position: absolute;
+    top: 6770px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 2rem;
+    max-width: 345px;
+    text-align: center;
+}
+
+.page__eight__text {
+    position: absolute;
+    top: 6280px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 2rem;
+    max-width: 345px;
+    text-align: center;
+}
+
 .page__eight__plastic {
     -webkit-animation: plastic-bounce 4s ease infinite;
     animation: plastic-bounce 4s ease infinite;
@@ -863,9 +893,9 @@ body>div>* {
     animation: left-hand 5s ease infinite;
 }
 
-.page__nine__right-hand {
-    -webkit-animation: right-hand 5s ease infinite;
-    animation: right-hand 5s ease infinite;
+.page__nine__fish-float {
+    -webkit-animation: fish-float 5s infinite;
+    animation: fish-float 5s infinite;
 }
 
 
