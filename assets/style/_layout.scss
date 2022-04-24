@@ -13,6 +13,21 @@ body>div>* {
     background-color: $cadetBlue; /*background color just for visibility for now*/
     margin: 100px auto;
 }
+p{
+    max-width: 65ch;
+}
+/* dosent work, I tried different stuff and asked for help but I couldnt find the problem why this dosent work,
+*/
+.info{
+animation: textbox 30s linear 19s both;
+    opacity: 0;
+    max-width: 40ch;
+    border-style: solid;
+    border-width: 10px;
+    border-color: $green;
+    border-radius: 8px;
+}
+
 
 .introtext {
 
@@ -32,3 +47,4 @@ body>div>* {
         text-align: center;
     }
 }
+
