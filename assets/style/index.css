@@ -831,6 +831,21 @@ body > div > * {
   overflow: visible;
 }
 
+.page-seven .page__seven__fish {
+  -webkit-animation: fish-bounce 5s linear infinite;
+  animation: fish-bounce 5s linear infinite;
+}
+
+.page-seven .page-seven__bag {
+  -webkit-animation: bag-float 5s ease infinite;
+  animation: bag-float 5s ease infinite;
+}
+
+.page-seven .page__seven__fish-float {
+  -webkit-animation: fish-float 5s infinite;
+  animation: fish-float 5s infinite;
+}
+
 .page-eight .page__eight__plastic {
   -webkit-animation: plastic-bounce 4s ease infinite;
   animation: plastic-bounce 4s ease infinite;
@@ -844,6 +859,17 @@ body > div > * {
 .page-eight .page__eight__div-plastic {
   -webkit-animation: div-plastic 5s linear infinite;
   animation: div-plastic 5s linear infinite;
+}
+
+.page-nine .page__nine__text {
+  position: absolute;
+  top: 6770px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 2rem;
+  max-width: 345px;
+  text-align: center;
 }
 
 .page-nine .page__nine__earth {

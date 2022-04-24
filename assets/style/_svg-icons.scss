@@ -308,6 +308,23 @@
         overflow: visible;
     }
 }
+
+.page-seven {
+
+    .page__seven__fish {
+        -webkit-animation: fish-bounce 5s linear infinite;
+        animation: fish-bounce 5s linear infinite;
+    }
+    .page-seven__bag {
+        -webkit-animation: bag-float 5s ease infinite;
+        animation: bag-float 5s ease infinite;
+    }
+
+    .page__seven__fish-float {
+        -webkit-animation: fish-float 5s infinite;
+        animation: fish-float 5s infinite;
+    }
+}
     
     .page-eight {
         .page__eight__plastic {
