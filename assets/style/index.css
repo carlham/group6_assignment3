@@ -328,37 +328,57 @@ add fonts, choose good font combination*/
   }
 }
 
-@-webkit-keyframes textbox1 {
+@-webkit-keyframes textbox {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
 
-@keyframes textbox1 {
+@keyframes textbox {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes starfall {
+  0% {
+    -webkit-transform: translate(270px, 10px);
+            transform: translate(270px, 10px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translate(270px, 154px);
+            transform: translate(270px, 154px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+@keyframes starfall {
+  0% {
+    -webkit-transform: translate(270px, 10px);
+            transform: translate(270px, 10px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translate(270px, 154px);
+            transform: translate(270px, 154px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }
 
@@ -380,11 +400,15 @@ p {
   max-width: 65ch;
 }
 
-.page-two_text {
-  -webkit-animation: textbox1 30s linear 19s both;
-          animation: textbox1 30s linear 19s both;
+.info {
+  -webkit-animation: textbox 30s linear 19s both;
+          animation: textbox 30s linear 19s both;
   opacity: 0;
   max-width: 40ch;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #03a688;
+  border-radius: 8px;
 }
 
 .introtext h1 {
@@ -473,13 +497,6 @@ p {
           animation: wave 4s ease-out infinite;
 }
 
-.page-two .page-two_text {
-  -webkit-animation: textbox1 30s linear 19s both;
-          animation: textbox1 30s linear 19s both;
-  opacity: 0;
-  max-width: 40ch;
-}
-
 .page-two .page-two_duck {
   -webkit-transform: translate(330px, -20px);
           transform: translate(330px, -20px);
@@ -558,8 +575,10 @@ p {
 }
 
 .page-three .page-three_starfish {
-  -webkit-transform: translate(270px, 10px);
-          transform: translate(270px, 10px);
+  -webkit-transform: translate(270px, 154px);
+          transform: translate(270px, 154px);
+  -webkit-animation: starfall 1s linear;
+          animation: starfall 1s linear;
 }
 
 .page-three .page-three_seaweed_1 {
