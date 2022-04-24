@@ -14,11 +14,17 @@ body>div>* {
 p{
     max-width: 65ch;
 }
-.page-two_text{
-    animation: textbox1 30s linear 19s both;
+/* So idk funker ikke hos meg og dette gjør ingen ting
+.info{
+    animation: textbox 30s linear 19s both;
     opacity: 0;
     max-width: 40ch;
+    border-style: solid;
+    border-width: 10px;
+    border-color: $green;
+    border-radius: 8px;
 }
+*/
 
 .introtext {
 

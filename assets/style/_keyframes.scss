@@ -117,19 +117,28 @@ transform: rotateY(180deg);
 
 }
 }
-@keyframes textbox1 {
+@keyframes textbox {
     0% {
-        letter-spacing: -0.5em;
-
-                transform: translateZ(-700px) translateY(-500px);
         opacity: 0;
       }
       40% {
         opacity: 0.6;
       }
       100% {
-                transform: translateZ(0) translateY(0);
+
         opacity: 1;
       }
     }
+    @keyframes starfall{
+            0% {
+                      transform: translate(270px, 10px);
+                      animation-timing-function: ease-in;
+            }
+           
+            100% {
+                      transform: translate(270px,154px);
+                      animation-timing-function: ease-out;
+            }
+          }
     
+          
