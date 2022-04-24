@@ -223,6 +223,16 @@
     }
     
     .page-seven {
+        .page__seven__text {
+            position: absolute;
+            top: 5370px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 2rem;
+            max-width: 345px;
+            text-align: center;
+        }
         .page__seven__fish {
             -webkit-animation: fish-bounce 5s linear infinite;
             animation: fish-bounce 5s linear infinite;
@@ -234,6 +244,16 @@
     }
     
     .page-eight {
+        .page__eight__text {
+            position: absolute;
+            top: 6280px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 2rem;
+            max-width: 345px;
+            text-align: center;
+        }
         .page__eight__plastic {
             -webkit-animation: plastic-bounce 4s ease infinite;
             animation: plastic-bounce 4s ease infinite;
