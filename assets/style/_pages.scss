@@ -12,7 +12,6 @@
     background-color: $navy;
     }
 
-
 .page-four,
 .page-five,
 .page-six {
@@ -20,3 +19,52 @@
     overflow: hidden;
 }
 
+.animator {
+    .page-five__fishtwo {
+        animation: fishtwo__swimaway 2s ease-in-out;
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .page-five__bottleone {
+        animation: bottle__fall 2s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .page-five__bottletwo {
+        animation: bottle__fall__two 4s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .page-five__fishone {
+        animation: page-five__fishone__swim 4s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3500ms;
+    }
+}
+
+.page__seven__text {
+    font-size: 2rem;
+    position: absolute;
+    transform: translate(40%, 30px);
+    max-width: 345px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page__eight__text {
+    position: absolute;
+    font-size: 2rem;
+    max-width: 345px;
+    transform: translate(130px, 200px);
+    text-align: center;
+}
+
+.page__nine__text {
+    font-size: 2rem;
+    width: 345px;
+    transform: translate(0, 100px);
+    text-align: center;
+    margin: 0 auto;
+}

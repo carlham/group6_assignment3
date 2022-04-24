@@ -11,7 +11,7 @@ As described above, our project is about preserving life under water. In the sto
 Since this is a project that helps the United Nations to promote one of their 17 goals, you can read and get more information about the goal on their website. In addition, we give many tips in our project on how to help contribute.
 
 ## Which technology is used?
-For this project we using Virtual studio code and GitHub, and figma/illustrato for making a prototype/storyboard for scrollytelling.
+For this project we using Virtual studio code and GitHub, and figma/illustrator for making a prototype/storyboard for scrollytelling. We used the online tool SVGOMG to optimize SVG's. Also used scrollama to implement some of the animations, for example on page four.
 
 ## Who maintains and contributes to the project?
-We are 3 group members, we all try to work equaly and we help eachother if needed. Our groupmembers are Anosh C. , Carl H. and Emilia L.
+We are 3 group members, we all try to work equally and we help eachother if needed. Our groupmembers are Anosh C. , Carl H. and Emilia L.
