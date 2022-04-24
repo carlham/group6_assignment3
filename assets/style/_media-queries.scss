@@ -1,22 +1,30 @@
 /* all media-query related here*/
 @media (prefers-reduced-motion) {
     * {
-        animation: none;
+        animation: none !important;
+    }
+    
+
+    .page-five {
+
+        .page-five__bottletwo {
+            transform: translate(40px, 100px) !important;
+        }
+
+        .page-five__bottleone {
+            transform: translate(-300px, 40px) !important;
+        }
+
+        .page-five__fishone {
+            transform: translate(-200px, -200px) !important;
+        }
     }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {}
 
-}
+@media (prefers-color-scheme: light) {}
 
-@media (prefers-color-scheme: light) {
-    
-}
+@media (orientation: landscape) {}
 
-@media (orientation: landscape) {
-
-}
-
-@media (orientation: portrait) {
-    
-}
+@media (orientation: portrait) {}
