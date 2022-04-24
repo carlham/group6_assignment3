@@ -325,16 +325,6 @@
     }
     
     .page-nine {
-        .page__nine__text {
-            position: absolute;
-            top: 6770px;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-            font-size: 2rem;
-            max-width: 345px;
-            text-align: center;
-        }
         .page__nine__earth {
             -webkit-animation: earth 5s ease infinite;
             animation: earth 5s ease infinite;
