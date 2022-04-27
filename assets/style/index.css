@@ -1015,6 +1015,30 @@ p {
           transform: translate(-230px, 100px);
 }
 
+.seaweed__template {
+  fill: #34a333;
+  stroke: #34a333;
+}
+
+.ground__template {
+  stroke: #e9d5b6;
+  overflow: visible;
+}
+
+.fish__template {
+  fill: #7899BF;
+  overflow: visible;
+}
+
+.star__template {
+  fill: #E48D3D;
+}
+
+.bottle__template {
+  fill: #39cce2;
+  overflow: visible;
+}
+
 .page-four .page-four__ground {
   -webkit-transform: translate(0, 381px);
           transform: translate(0, 381px);

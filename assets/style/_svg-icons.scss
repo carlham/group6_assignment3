@@ -110,6 +110,32 @@
         transform: translate(-230px, 100px);
     }
 }
+
+//templates for @extend
+.seaweed__template {
+    fill: $brightGreen;
+    stroke: $brightGreen;
+}
+
+.ground__template {
+    stroke: $sand;
+    overflow: visible;
+}
+
+.fish__template {
+    fill: $greyBlue;
+    overflow: visible;
+}
+
+.star__template {
+    fill: $orange;
+}
+
+.bottle__template {
+    fill: $steelBlueLight;
+    overflow: visible;
+}
+
 .page-four {
 
     .page-four__ground {
