@@ -21,9 +21,24 @@
     }
 }
 
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+    //wanted to make the pages as neutral as possible, since they are fairly neutral by default. They arent very light, nor very dark.
+    //knew this because I ran the original page using a dark mode chrome-addon, and it didnt do anything with the main pages.
+    body {
+    background-color: $darkModeBackground;
+    }
 
-@media (prefers-color-scheme: light) {}
+    .introtext {
+        color: $white;
+    }
+}
+
+//white text for better readability
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: $tourqise;
+    }
+}
 
 @media (orientation: landscape) {}
 

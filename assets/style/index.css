@@ -767,7 +767,6 @@ add fonts, choose good font combination*/
 /*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
-  background-color: #a0ebe3;
   margin: 0%;
   padding: 0%;
 }
@@ -830,6 +829,21 @@ p {
   .page-five .page-five__fishone {
     -webkit-transform: translate(-200px, -200px) !important;
             transform: translate(-200px, -200px) !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #272834;
+  }
+  .introtext {
+    color: #FFFFFF;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #a0ebe3;
   }
 }
 
