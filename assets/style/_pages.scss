@@ -19,7 +19,11 @@
     overflow: hidden;
 }
 
-.animator {
+.page-four__animator {
+
+}
+
+.page-five__animator {
     .page-five__fishtwo {
         animation: fishtwo__swimaway 2s ease-in-out;
         animation-delay: 2s;
@@ -42,6 +46,10 @@
         animation-fill-mode: forwards;
         animation-delay: 3500ms;
     }
+}
+
+.page-six__animator {
+    
 }
 
 .page__seven__text {

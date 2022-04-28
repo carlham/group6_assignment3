@@ -1409,7 +1409,7 @@ p {
   overflow: hidden;
 }
 
-.animator .page-five__fishtwo {
+.page-five__animator .page-five__fishtwo {
   -webkit-animation: fishtwo__swimaway 2s ease-in-out;
           animation: fishtwo__swimaway 2s ease-in-out;
   -webkit-animation-delay: 2s;
@@ -1420,7 +1420,7 @@ p {
           animation-fill-mode: forwards;
 }
 
-.animator .page-five__bottleone {
+.page-five__animator .page-five__bottleone {
   -webkit-animation: bottle__fall 2s ease-in-out;
           animation: bottle__fall 2s ease-in-out;
   -webkit-animation-iteration-count: 1;
@@ -1429,7 +1429,7 @@ p {
           animation-fill-mode: forwards;
 }
 
-.animator .page-five__bottletwo {
+.page-five__animator .page-five__bottletwo {
   -webkit-animation: bottle__fall__two 4s ease-in-out;
           animation: bottle__fall__two 4s ease-in-out;
   -webkit-animation-iteration-count: 1;
@@ -1438,7 +1438,7 @@ p {
           animation-fill-mode: forwards;
 }
 
-.animator .page-five__fishone {
+.page-five__animator .page-five__fishone {
   -webkit-animation: page-five__fishone__swim 4s ease-in-out;
           animation: page-five__fishone__swim 4s ease-in-out;
   -webkit-animation-iteration-count: 1;
