@@ -1,16 +1,20 @@
 /* all styling for the 10 slides go here, some svg things can go in svg file for better separation*/
-.page-front{
+
+.page-front {
     background-color: $skyebule;
 }
-.page-one{
+
+.page-one {
     background-color: $steelBlue;
-    }
-    .page-two{
+}
+
+.page-two {
     background-color: $teal;
-    }
-    .page-three{
+}
+
+.page-three {
     background-color: $navy;
-    }
+}
 
 .page-four,
 .page-five,
@@ -44,27 +48,22 @@
     }
 }
 
-.page__seven__text {
+.page__text {
     font-size: 2rem;
     position: absolute;
+    max-width: 345px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page__text--seven {
     transform: translate(40%, 30px);
-    max-width: 345px;
-    margin: 0 auto;
-    text-align: center;
 }
 
-.page__eight__text {
-    position: absolute;
-    font-size: 2rem;
-    max-width: 345px;
-    transform: translate(130px, 200px);
-    text-align: center;
+.page__text--eight {
+    transform: translate(130px, 250px);
 }
 
-.page__nine__text {
-    font-size: 2rem;
-    width: 345px;
-    transform: translate(0, 100px);
-    text-align: center;
-    margin: 0 auto;
+.page__text--nine {
+    transform: translate(130px, 50px);
 }
