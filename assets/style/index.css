@@ -1044,6 +1044,10 @@ p {
   fill: #C4C4C4;
 }
 
+.rock__template, .rock {
+  fill: #C4C4C4;
+}
+
 .page-four .page-four__ground {
   -webkit-transform: translate(0, 381px);
           transform: translate(0, 381px);
@@ -1052,7 +1056,6 @@ p {
 .page-four .page-four__rock {
   -webkit-transform: translate(471px, 250px) scale(2);
           transform: translate(471px, 250px) scale(2);
-  fill: #C4C4C4;
 }
 
 .page-four .page-four__rock__star {
@@ -1155,7 +1158,6 @@ p {
 .page-five .page-five__rock {
   -webkit-transform: translate(480px, 230px) scale(2.5);
           transform: translate(480px, 230px) scale(2.5);
-  fill: #C4C4C4;
 }
 
 .page-five .page-five__rock__star {

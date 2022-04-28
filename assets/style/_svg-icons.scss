@@ -141,6 +141,10 @@
     fill: $grey;
 }
 
+.rock__template {
+    fill: $grey;
+}
+
 //added extra classes to SVGs to not have to repeat the class for however many times I wanted to extend
 .seaweed {
     @extend .seaweed__color;
@@ -166,6 +170,10 @@
     @extend .pebble__template;
 }
 
+.rock {
+    @extend .rock__template;
+}
+
 .page-four {
 
     .page-four__ground {
@@ -174,7 +182,6 @@
 
     .page-four__rock {
         transform: translate(471px, 250px) scale(2);
-        fill: $grey;
     }
 
     .page-four__rock__star {
@@ -259,7 +266,6 @@
 
     .page-five__rock {
         transform: translate(480px, 230px) scale(2.5);
-        fill: $grey;
     }
 
     .page-five__rock__star {
