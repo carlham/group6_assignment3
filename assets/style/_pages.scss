@@ -23,7 +23,15 @@
     overflow: hidden;
 }
 
-.animator {
+.page-four__animator {
+    .page-four__fishfour {
+        animation: page-four__fish__right 5s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+}
+
+.page-five__animator {
     .page-five__fishtwo {
         animation: fishtwo__swimaway 2s ease-in-out;
         animation-delay: 2s;
@@ -45,6 +53,14 @@
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-delay: 3500ms;
+    }
+}
+
+.page-six__animator {
+    .page-six__ground__bottleone {
+        animation: page-six__bottle 8s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 }
 

@@ -3,6 +3,13 @@
     * {
         animation: none !important;
     }
+
+    .page-four {
+
+        .page-four__fishfour {
+            transform: translate(-20px, 300px) !important;
+        }
+    }
     
 
     .page-five {
@@ -17,6 +24,12 @@
 
         .page-five__fishone {
             transform: translate(-200px, -200px) !important;
+        }
+    }
+
+    .page-six {
+        .page-six__ground__bottleone {
+            transform: translate(335px, 50px) scale(0.8) !important;
         }
     }
 }
