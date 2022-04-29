@@ -182,138 +182,152 @@
         transform: translateY(0);
     }
 }
+
 @keyframes slide-out-left {
-    0% { transform: translateX(270px);
+    0% {
+        transform: translateX(270px);
     }
     100% {
-              transform: translateX(-100px);
+        transform: translateX(-100px);
     }
-  }
-  @keyframes slide-out-left1 {
-    0% { transform: translate(150px, -50px);
-    }
-    100% {
-              transform: translate(-50px, -50px);
-    }
-  }
-  @keyframes slide-out-left2 {
-    0% { transform: translate(200px, 120px);
+}
+
+@keyframes slide-out-left1 {
+    0% {
+        transform: translate(150px, -50px);
     }
     100% {
-              transform: translate(-60px, 120px);
+        transform: translate(-50px, -50px);
     }
-  }
-  @keyframes slide-out-left3 {
-    0% { transform: translate(100px, 220px);
+}
+
+@keyframes slide-out-left2 {
+    0% {
+        transform: translate(200px, 120px);
+    }
+    100% {
+        transform: translate(-60px, 120px);
+    }
+}
+
+@keyframes slide-out-left3 {
+    0% {
+        transform: translate(100px, 220px);
     }
     100% {
         transform: translate(-50px, 220px);
     }
-  }
-  @keyframes wave{
-0% {
-    opacity: 1;}
-100% {
-    opacity: 0;
 }
-  }
-  @keyframes wave2{
+
+@keyframes wave {
     0% {
-        opacity: 0;}
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
-  }
-  @keyframes fish-swim{
-0% { transform: translate(10px, 120px);
-    opacity: 1;
-}
-80%{
-    transform: translate(300px,120px);
-}
-90%{
-transform: rotateY(180deg);
 }
 
-100%{  transform: translate(0,0) rotateY(180deg);
-    opacity: 1;
-
-}
-  }
-  @keyframes fish-swim2{
-    0% { transform: translate(10px, 150px);
+@keyframes fish-swim {
+    0% {
+        transform: translate(10px, 120px);
         opacity: 1;
     }
-
-80%{
-    transform: translate(220px,100px);
-}
-90%{
-transform: rotateY(180deg);
-}
-
-100%{  transform: translate(-20px,0) rotateY(180deg);
-    opacity: 1;
-
-} 
-}
-@keyframes fish-swim3{
-    0% { transform: translate(10px, 200px);
+    80% {
+        transform: translate(300px, 120px);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateY(180deg);
         opacity: 1;
     }
-80%{
-    transform: translate(180px,90px);
-}
-90%{
-transform: rotateY(180deg);
 }
 
-100%{  transform: translate(-40px,0) rotateY(180deg);
-    opacity: 1;
-
-}   
-}
-@keyframes fish-swim4{
-    0% { transform: translate(50px, 350px);
+@keyframes fish-swim2 {
+    0% {
+        transform: translate(10px, 150px);
         opacity: 1;
     }
-80%{
-    transform: translate(150px,350px);
-}
-90%{
-transform: rotateY(180deg);
+    80% {
+        transform: translate(220px, 100px);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: translate(-20px, 0) rotateY(180deg);
+        opacity: 1;
+    }
 }
 
-100%{  transform:rotateY(180deg);
-    opacity: 1;
+@keyframes fish-swim3 {
+    0% {
+        transform: translate(10px, 200px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(180px, 90px);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: translate(-40px, 0) rotateY(180deg);
+        opacity: 1;
+    }
+}
 
+@keyframes fish-swim4 {
+    0% {
+        transform: translate(50px, 350px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(150px, 350px);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+        opacity: 1;
+    }
 }
-}
+
 @keyframes textbox {
     0% {
         opacity: 0;
-      }
-      40% {
-        opacity: 0.6;
-      }
-      100% {
-
-        opacity: 1;
-      }
     }
-    @keyframes starfall{
-            0% {
-                      transform: translate(270px, 10px);
-                      animation-timing-function: ease-in;
-            }
-           
-            100% {
-                      transform: translate(270px,154px);
-                      animation-timing-function: ease-out;
-            }
-          }
-    
-          
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes starfall {
+    0% {
+        transform: translate(270px, 10px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translate(270px, 154px);
+        animation-timing-function: ease-out;
+    }
+}
+
 @keyframes page-four__fish__right {
     0% {
         transform: translate(300px, 300px) scale(-1, 1);
@@ -329,5 +343,35 @@ transform: rotateY(180deg);
     }
     100% {
         transform: translate(335px, 50px) scale(0.8);
+    }
+}
+
+@keyframes page-seven__text {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes page-eight__text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes page-nine__text {
+    0% {
+        transform: scale(.3) translate(90px, 50px);
+        border-radius: 100%;
+    }
+    100% {
+        transform: scale(1.5) translate(90px, 50px);
     }
 }
