@@ -19,11 +19,6 @@
     overflow: hidden;
 }
 
-.animation__rules {
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 .page-four__animator {
     .page-four__fishfour {
         animation: page-four__fish__right 5s ease-in-out;

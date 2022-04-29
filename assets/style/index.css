@@ -1462,13 +1462,6 @@ p {
   overflow: hidden;
 }
 
-.animation__rules {
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
 .page-four__animator .page-four__fishfour {
   -webkit-animation: page-four__fish__right 5s ease-in-out;
           animation: page-four__fish__right 5s ease-in-out;
