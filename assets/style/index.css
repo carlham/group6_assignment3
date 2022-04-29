@@ -764,6 +764,50 @@ add fonts, choose good font combination*/
   }
 }
 
+@-webkit-keyframes page-four__fish__right {
+  0% {
+    -webkit-transform: translate(300px, 300px) scale(-1, 1);
+            transform: translate(300px, 300px) scale(-1, 1);
+  }
+  100% {
+    -webkit-transform: translate(-30px, 300px) scale(-1, 1);
+            transform: translate(-30px, 300px) scale(-1, 1);
+  }
+}
+
+@keyframes page-four__fish__right {
+  0% {
+    -webkit-transform: translate(300px, 300px) scale(-1, 1);
+            transform: translate(300px, 300px) scale(-1, 1);
+  }
+  100% {
+    -webkit-transform: translate(-30px, 300px) scale(-1, 1);
+            transform: translate(-30px, 300px) scale(-1, 1);
+  }
+}
+
+@-webkit-keyframes page-six__bottle {
+  0% {
+    -webkit-transform: translate(335px, -600px) scale(0.8);
+            transform: translate(335px, -600px) scale(0.8);
+  }
+  100% {
+    -webkit-transform: translate(335px, 50px) scale(0.8);
+            transform: translate(335px, 50px) scale(0.8);
+  }
+}
+
+@keyframes page-six__bottle {
+  0% {
+    -webkit-transform: translate(335px, -600px) scale(0.8);
+            transform: translate(335px, -600px) scale(0.8);
+  }
+  100% {
+    -webkit-transform: translate(335px, 50px) scale(0.8);
+            transform: translate(335px, 50px) scale(0.8);
+  }
+}
+
 /*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
@@ -818,6 +862,10 @@ p {
     -webkit-animation: none !important;
             animation: none !important;
   }
+  .page-four .page-four__fishfour {
+    -webkit-transform: translate(-20px, 300px) !important;
+            transform: translate(-20px, 300px) !important;
+  }
   .page-five .page-five__bottletwo {
     -webkit-transform: translate(40px, 100px) !important;
             transform: translate(40px, 100px) !important;
@@ -829,6 +877,10 @@ p {
   .page-five .page-five__fishone {
     -webkit-transform: translate(-200px, -200px) !important;
             transform: translate(-200px, -200px) !important;
+  }
+  .page-six .page-six__ground__bottleone {
+    -webkit-transform: translate(335px, 50px) scale(0.8) !important;
+            transform: translate(335px, 50px) scale(0.8) !important;
   }
 }
 
@@ -1037,6 +1089,7 @@ p {
 
 .bottle__template, .bottle {
   fill: #39cce2;
+  stroke: #39cce2;
   overflow: visible;
 }
 
@@ -1109,8 +1162,8 @@ p {
 }
 
 .page-four .page-four__fishfour {
-  -webkit-transform: translate(-30px, 300px);
-          transform: translate(-30px, 300px);
+  -webkit-transform: translate(300px, 300px);
+          transform: translate(300px, 300px);
 }
 
 .page-four .page-four__fishone * {
@@ -1409,6 +1462,22 @@ p {
   overflow: hidden;
 }
 
+.animation__rules {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.page-four__animator .page-four__fishfour {
+  -webkit-animation: page-four__fish__right 5s ease-in-out;
+          animation: page-four__fish__right 5s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 .page-five__animator .page-five__fishtwo {
   -webkit-animation: fishtwo__swimaway 2s ease-in-out;
           animation: fishtwo__swimaway 2s ease-in-out;
@@ -1447,6 +1516,15 @@ p {
           animation-fill-mode: forwards;
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
+}
+
+.page-six__animator .page-six__ground__bottleone {
+  -webkit-animation: page-six__bottle 8s ease-in-out;
+          animation: page-six__bottle 8s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .page__seven__text {

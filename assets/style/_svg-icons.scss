@@ -134,6 +134,7 @@
 
 .bottle__template {
     fill: $steelBlueLight;
+    stroke: $steelBlueLight;
     overflow: visible;
 }
 
@@ -225,7 +226,7 @@
     }
 
     .page-four__fishfour {
-        transform: translate(-30px, 300px);
+        transform: translate(300px, 300px);
     }
 
     .page-four__fishone * {

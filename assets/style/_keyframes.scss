@@ -314,3 +314,20 @@ transform: rotateY(180deg);
           }
     
           
+@keyframes page-four__fish__right {
+    0% {
+        transform: translate(300px, 300px) scale(-1, 1);
+    }
+    100% {
+        transform: translate(-30px, 300px) scale(-1, 1);
+    }
+}
+
+@keyframes page-six__bottle {
+    0% {
+        transform: translate(335px, -600px) scale(0.8);
+    }
+    100% {
+        transform: translate(335px, 50px) scale(0.8);
+    }
+}
