@@ -771,48 +771,109 @@ add fonts, choose good font combination*/
 }
 
 @-webkit-keyframes page-four__fish__right {
-  0% {
-    -webkit-transform: translate(300px, 300px) scale(-1, 1);
-            transform: translate(300px, 300px) scale(-1, 1);
-  }
-  100% {
-    -webkit-transform: translate(-30px, 300px) scale(-1, 1);
-            transform: translate(-30px, 300px) scale(-1, 1);
-  }
+    0% {
+        -webkit-transform: translate(300px, 300px) scale(-1, 1);
+        transform: translate(300px, 300px) scale(-1, 1);
+    }
+    100% {
+        -webkit-transform: translate(-30px, 300px) scale(-1, 1);
+        transform: translate(-30px, 300px) scale(-1, 1);
+    }
 }
 
 @keyframes page-four__fish__right {
-  0% {
-    -webkit-transform: translate(300px, 300px) scale(-1, 1);
-            transform: translate(300px, 300px) scale(-1, 1);
-  }
-  100% {
-    -webkit-transform: translate(-30px, 300px) scale(-1, 1);
-            transform: translate(-30px, 300px) scale(-1, 1);
-  }
+    0% {
+        -webkit-transform: translate(300px, 300px) scale(-1, 1);
+        transform: translate(300px, 300px) scale(-1, 1);
+    }
+    100% {
+        -webkit-transform: translate(-30px, 300px) scale(-1, 1);
+        transform: translate(-30px, 300px) scale(-1, 1);
+    }
 }
 
 @-webkit-keyframes page-six__bottle {
-  0% {
-    -webkit-transform: translate(335px, -600px) scale(0.8);
-            transform: translate(335px, -600px) scale(0.8);
-  }
-  100% {
-    -webkit-transform: translate(335px, 50px) scale(0.8);
-            transform: translate(335px, 50px) scale(0.8);
-  }
+    0% {
+        -webkit-transform: translate(335px, -600px) scale(0.8);
+        transform: translate(335px, -600px) scale(0.8);
+    }
+    100% {
+        -webkit-transform: translate(335px, 50px) scale(0.8);
+        transform: translate(335px, 50px) scale(0.8);
+    }
 }
 
 @keyframes page-six__bottle {
-  0% {
-    -webkit-transform: translate(335px, -600px) scale(0.8);
-            transform: translate(335px, -600px) scale(0.8);
-  }
-  100% {
-    -webkit-transform: translate(335px, 50px) scale(0.8);
-            transform: translate(335px, 50px) scale(0.8);
-  }
+    0% {
+        -webkit-transform: translate(335px, -600px) scale(0.8);
+        transform: translate(335px, -600px) scale(0.8);
+    }
+    100% {
+        -webkit-transform: translate(335px, 50px) scale(0.8);
+        transform: translate(335px, 50px) scale(0.8);
+    }
 }
+
+@-webkit-keyframes page-seven__text {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes page-seven__text {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes page-eight__text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes page-eight__text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes page-nine__text {
+    0% {
+        transform: scale(.3) translate(90px, 50px);
+        border-radius: 100%;
+    }
+    100% {
+        transform: scale(1.5) translate(90px, 50px);
+    }
+}
+
+@keyframes page-nine__text {
+    0% {
+        transform: scale(.3) translate(90px, 50px);
+        border-radius: 100%;
+    }
+    100% {
+        transform: scale(1.5) translate(90px, 50px);
+    }
+}
+
 
 /*initial layout, might rework/set up flex later*/
 
@@ -869,30 +930,30 @@ p {
 /* all media-query related here*/
 
 @media (prefers-reduced-motion) {
-  * {
-    -webkit-animation: none !important;
-            animation: none !important;
-  }
-  .page-four .page-four__fishfour {
-    -webkit-transform: translate(-20px, 300px) !important;
-            transform: translate(-20px, 300px) !important;
-  }
-  .page-five .page-five__bottletwo {
-    -webkit-transform: translate(40px, 100px) !important;
-            transform: translate(40px, 100px) !important;
-  }
-  .page-five .page-five__bottleone {
-    -webkit-transform: translate(-300px, 40px) !important;
-            transform: translate(-300px, 40px) !important;
-  }
-  .page-five .page-five__fishone {
-    -webkit-transform: translate(-200px, -200px) !important;
-            transform: translate(-200px, -200px) !important;
-  }
-  .page-six .page-six__ground__bottleone {
-    -webkit-transform: translate(335px, 50px) scale(0.8) !important;
-            transform: translate(335px, 50px) scale(0.8) !important;
-  }
+    * {
+        -webkit-animation: none !important;
+        animation: none !important;
+    }
+    .page-four .page-four__fishfour {
+        -webkit-transform: translate(-20px, 300px) !important;
+        transform: translate(-20px, 300px) !important;
+    }
+    .page-five .page-five__bottletwo {
+        -webkit-transform: translate(40px, 100px) !important;
+        transform: translate(40px, 100px) !important;
+    }
+    .page-five .page-five__bottleone {
+        -webkit-transform: translate(-300px, 40px) !important;
+        transform: translate(-300px, 40px) !important;
+    }
+    .page-five .page-five__fishone {
+        -webkit-transform: translate(-200px, -200px) !important;
+        transform: translate(-200px, -200px) !important;
+    }
+    .page-six .page-six__ground__bottleone {
+        -webkit-transform: translate(335px, 50px) scale(0.8) !important;
+        transform: translate(335px, 50px) scale(0.8) !important;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1078,103 +1139,110 @@ p {
     transform: translate(-230px, 100px);
 }
 
-.seaweed__color, .seaweed {
-  fill: #34a333;
-  stroke: #34a333;
+.seaweed__color,
+.seaweed {
+    fill: #34a333;
+    stroke: #34a333;
 }
 
-.ground__template, .ground {
-  stroke: #e9d5b6;
-  fill: #e9d5b6;
-  overflow: visible;
+.ground__template,
+.ground {
+    stroke: #e9d5b6;
+    fill: #e9d5b6;
+    overflow: visible;
 }
 
-.fish__template, .fish {
-  fill: #7899BF;
-  overflow: visible;
+.fish__template,
+.fish {
+    fill: #7899BF;
+    overflow: visible;
 }
 
-.star__template, .star {
-  fill: #E48D3D;
+.star__template,
+.star {
+    fill: #E48D3D;
 }
 
-.bottle__template, .bottle {
-  fill: #39cce2;
-  stroke: #39cce2;
-  overflow: visible;
+.bottle__template,
+.bottle {
+    fill: #39cce2;
+    stroke: #39cce2;
+    overflow: visible;
 }
 
-.pebble__template, .pebble {
-  fill: #C4C4C4;
+.pebble__template,
+.pebble {
+    fill: #C4C4C4;
 }
 
-.rock__template, .rock {
-  fill: #C4C4C4;
+.rock__template,
+.rock {
+    fill: #C4C4C4;
 }
 
 .page-four .page-four__ground {
-  -webkit-transform: translate(0, 381px);
-          transform: translate(0, 381px);
+    -webkit-transform: translate(0, 381px);
+    transform: translate(0, 381px);
 }
 
 .page-four .page-four__rock {
-  -webkit-transform: translate(471px, 250px) scale(2);
-          transform: translate(471px, 250px) scale(2);
+    -webkit-transform: translate(471px, 250px) scale(2);
+    transform: translate(471px, 250px) scale(2);
 }
 
 .page-four .page-four__rock__star {
-  -webkit-transform: translate(30px, 5px) scale(0.8);
-          transform: translate(30px, 5px) scale(0.8);
+    -webkit-transform: translate(30px, 5px) scale(0.8);
+    transform: translate(30px, 5px) scale(0.8);
 }
 
 .page-four .page-four__ground__seaweedone {
-  -webkit-transform: translate(10px, -12px);
-          transform: translate(10px, -12px);
+    -webkit-transform: translate(10px, -12px);
+    transform: translate(10px, -12px);
 }
 
 .page-four .page-four__ground__seaweedtwo {
-  -webkit-transform: translate(30px, -8px) scale(0.8);
-          transform: translate(30px, -8px) scale(0.8);
+    -webkit-transform: translate(30px, -8px) scale(0.8);
+    transform: translate(30px, -8px) scale(0.8);
 }
 
 .page-four .page-four__ground__seaweedthree {
-  -webkit-transform: translate(44px, -20px) scale(1.07);
-          transform: translate(44px, -20px) scale(1.07);
+    -webkit-transform: translate(44px, -20px) scale(1.07);
+    transform: translate(44px, -20px) scale(1.07);
 }
 
 .page-four .page-four__ground__seaweedfour {
-  -webkit-transform: translate(62px, -18px) scale(1.1);
-          transform: translate(62px, -18px) scale(1.1);
+    -webkit-transform: translate(62px, -18px) scale(1.1);
+    transform: translate(62px, -18px) scale(1.1);
 }
 
 .page-four .page-four__ground__pebbleone {
-  -webkit-transform: translate(130px, 60px) scale(1.6);
-          transform: translate(130px, 60px) scale(1.6);
+    -webkit-transform: translate(130px, 60px) scale(1.6);
+    transform: translate(130px, 60px) scale(1.6);
 }
 
 .page-four .page-four__ground__pebbletwo {
-  -webkit-transform: translate(300px, 90px) scale(1.6);
-          transform: translate(300px, 90px) scale(1.6);
+    -webkit-transform: translate(300px, 90px) scale(1.6);
+    transform: translate(300px, 90px) scale(1.6);
 }
 
 .page-four .page-four__fishone {
-  -webkit-transform: translate(80px, 90px);
-          transform: translate(80px, 90px);
+    -webkit-transform: translate(80px, 90px);
+    transform: translate(80px, 90px);
 }
 
 .page-four .page-four__fishtwo {
-  -webkit-transform: translate(160px, 50px);
-          transform: translate(160px, 50px);
+    -webkit-transform: translate(160px, 50px);
+    transform: translate(160px, 50px);
 }
 
 .page-four .page-four__fishthree {
-  -webkit-transform: translate(-150px, 340px);
-          transform: translate(-150px, 340px);
+    -webkit-transform: translate(-150px, 340px);
+    transform: translate(-150px, 340px);
 }
 
 .page-four .page-four__fishfour {
-  -webkit-transform: translate(300px, 300px);
-          transform: translate(300px, 300px);
+    -webkit-transform: translate(300px, 300px);
+    transform: translate(300px, 300px);
 }
 
 .page-four .page-four__fishone * {
@@ -1200,83 +1268,83 @@ p {
 }
 
 .page-four .page-four__ground__star-one {
-  -webkit-transform: translate(100px, 90px);
-          transform: translate(100px, 90px);
+    -webkit-transform: translate(100px, 90px);
+    transform: translate(100px, 90px);
 }
 
 .page-four .page-four__ground__star-two {
-  -webkit-transform: translate(260px, 20px) scale(1.3);
-          transform: translate(260px, 20px) scale(1.3);
+    -webkit-transform: translate(260px, 20px) scale(1.3);
+    transform: translate(260px, 20px) scale(1.3);
 }
 
 .page-four .page-four__ground__star-three {
-  -webkit-transform: translate(350px, 40px) scale(1.2);
-          transform: translate(350px, 40px) scale(1.2);
+    -webkit-transform: translate(350px, 40px) scale(1.2);
+    transform: translate(350px, 40px) scale(1.2);
 }
 
 .page-five .page-five__ground {
-  -webkit-transform: translate(0px, 381px) scale(1);
-          transform: translate(0px, 381px) scale(1);
+    -webkit-transform: translate(0px, 381px) scale(1);
+    transform: translate(0px, 381px) scale(1);
 }
 
 .page-five .page-five__rock {
-  -webkit-transform: translate(480px, 230px) scale(2.5);
-          transform: translate(480px, 230px) scale(2.5);
+    -webkit-transform: translate(480px, 230px) scale(2.5);
+    transform: translate(480px, 230px) scale(2.5);
 }
 
 .page-five .page-five__rock__star {
-  -webkit-transform: translate(30px, 5px) scale(0.7);
-          transform: translate(30px, 5px) scale(0.7);
+    -webkit-transform: translate(30px, 5px) scale(0.7);
+    transform: translate(30px, 5px) scale(0.7);
 }
 
 .page-five .page-five__ground__seaweedone {
-  -webkit-transform: translate(30px, 8px) scale(1);
-          transform: translate(30px, 8px) scale(1);
+    -webkit-transform: translate(30px, 8px) scale(1);
+    transform: translate(30px, 8px) scale(1);
 }
 
 .page-five .page-five__ground__seaweedtwo {
-  -webkit-transform: translate(50px, 12px) scale(0.8);
-          transform: translate(50px, 12px) scale(0.8);
+    -webkit-transform: translate(50px, 12px) scale(0.8);
+    transform: translate(50px, 12px) scale(0.8);
 }
 
 .page-five .page-five__ground__seaweedthree {
-  -webkit-transform: translate(74px, 8px) scale(1.07);
-          transform: translate(74px, 8px) scale(1.07);
+    -webkit-transform: translate(74px, 8px) scale(1.07);
+    transform: translate(74px, 8px) scale(1.07);
 }
 
 .page-five .page-five__ground__pebbleone {
-  -webkit-transform: translate(130px, 60px) scale(1.6);
-          transform: translate(130px, 60px) scale(1.6);
+    -webkit-transform: translate(130px, 60px) scale(1.6);
+    transform: translate(130px, 60px) scale(1.6);
 }
 
 .page-five .page-five__ground__pebbletwo {
-  -webkit-transform: translate(300px, 90px) scale(1.6);
-          transform: translate(300px, 90px) scale(1.6);
+    -webkit-transform: translate(300px, 90px) scale(1.6);
+    transform: translate(300px, 90px) scale(1.6);
 }
 
 .page-five .page-five__ground__pebblethree {
-  -webkit-transform: translate(160px, 100px) scale(1.6);
-          transform: translate(160px, 100px) scale(1.6);
+    -webkit-transform: translate(160px, 100px) scale(1.6);
+    transform: translate(160px, 100px) scale(1.6);
 }
 
 .page-five .page-five__ground__pebblefour {
-  -webkit-transform: translate(340px, 30px) scale(1.6);
-          transform: translate(340px, 30px) scale(1.6);
+    -webkit-transform: translate(340px, 30px) scale(1.6);
+    transform: translate(340px, 30px) scale(1.6);
 }
 
 .page-five .page-five__fishone {
-  -webkit-transform: translate(80px, 150px);
-          transform: translate(80px, 150px);
+    -webkit-transform: translate(80px, 150px);
+    transform: translate(80px, 150px);
 }
 
 .page-five .page-five__fishtwo {
-  -webkit-transform: translate(260px, 270px);
-          transform: translate(260px, 270px);
+    -webkit-transform: translate(260px, 270px);
+    transform: translate(260px, 270px);
 }
 
 .page-five .page-five__fishthree {
-  -webkit-transform: translate(-150px, 340px) scale(-1, 1);
-          transform: translate(-150px, 340px) scale(-1, 1);
+    -webkit-transform: translate(-150px, 340px) scale(-1, 1);
+    transform: translate(-150px, 340px) scale(-1, 1);
 }
 
 .page-five .page-five__fishone * {
@@ -1295,19 +1363,18 @@ p {
 }
 
 .page-five .page-five__ground__star-one {
-  -webkit-transform: translate(100px, 90px);
-          transform: translate(100px, 90px);
+    -webkit-transform: translate(100px, 90px);
+    transform: translate(100px, 90px);
 }
 
 .page-five .page-five__ground__star-two {
-  -webkit-transform: translate(260px, 20px) scale(1.3);
-          transform: translate(260px, 20px) scale(1.3);
+    -webkit-transform: translate(260px, 20px) scale(1.3);
+    transform: translate(260px, 20px) scale(1.3);
 }
 
 .page-five .page-five__bottleone {
-  -webkit-transform: translate(0, -200px);
-          transform: translate(0, -200px);
-
+    -webkit-transform: translate(0, -200px);
+    transform: translate(0, -200px);
 }
 
 .page-five .page-five__bottleone * {
@@ -1316,9 +1383,8 @@ p {
 }
 
 .page-five .page-five__bottletwo {
-  -webkit-transform: translate(-300px, -200px);
-          transform: translate(-300px, -200px);
-
+    -webkit-transform: translate(-300px, -200px);
+    transform: translate(-300px, -200px);
 }
 
 .page-five .page-five__bottletwo * {
@@ -1327,53 +1393,53 @@ p {
 }
 
 .page-six .page-six__ground {
-  -webkit-transform: translate(0, 332px);
-          transform: translate(0, 332px);
+    -webkit-transform: translate(0, 332px);
+    transform: translate(0, 332px);
 }
 
 .page-six .page-six__rock {
-  -webkit-transform: translate(480px, 180px) scale(2.5);
-          transform: translate(480px, 180px) scale(2.5);
+    -webkit-transform: translate(480px, 180px) scale(2.5);
+    transform: translate(480px, 180px) scale(2.5);
 }
 
 .page-six .page-six__ground__seaweed {
-  -webkit-transform: translate(44px, 8px) scale(1.4);
-          transform: translate(44px, 8px) scale(1.4);
+    -webkit-transform: translate(44px, 8px) scale(1.4);
+    transform: translate(44px, 8px) scale(1.4);
 }
 
 .page-six .page-six__ground__pebbleone {
-  -webkit-transform: translate(130px, 60px) scale(1.6);
-          transform: translate(130px, 60px) scale(1.6);
+    -webkit-transform: translate(130px, 60px) scale(1.6);
+    transform: translate(130px, 60px) scale(1.6);
 }
 
 .page-six .page-six__ground__pebbletwo {
-  -webkit-transform: translate(260px, 90px) scale(1.6);
-          transform: translate(260px, 90px) scale(1.6);
+    -webkit-transform: translate(260px, 90px) scale(1.6);
+    transform: translate(260px, 90px) scale(1.6);
 }
 
 .page-six .page-six__ground__pebblethree {
-  -webkit-transform: translate(160px, 130px) scale(1.6);
-          transform: translate(160px, 130px) scale(1.6);
+    -webkit-transform: translate(160px, 130px) scale(1.6);
+    transform: translate(160px, 130px) scale(1.6);
 }
 
 .page-six .page-six__ground__pebblefour {
-  -webkit-transform: translate(340px, 30px) scale(1.6);
-          transform: translate(340px, 30px) scale(1.6);
+    -webkit-transform: translate(340px, 30px) scale(1.6);
+    transform: translate(340px, 30px) scale(1.6);
 }
 
 .page-six .page-six__ground__pebblefive {
-  -webkit-transform: translate(340px, 120px) scale(1.6);
-          transform: translate(340px, 120px) scale(1.6);
+    -webkit-transform: translate(340px, 120px) scale(1.6);
+    transform: translate(340px, 120px) scale(1.6);
 }
 
 .page-six .page-six__ground__star-one {
-  -webkit-transform: translate(80px, 110px) scale(0.7);
-          transform: translate(80px, 110px) scale(0.7);
+    -webkit-transform: translate(80px, 110px) scale(0.7);
+    transform: translate(80px, 110px) scale(0.7);
 }
 
 .page-six .page-six__fishone {
-  -webkit-transform: translate(30px, 270px);
-          transform: translate(30px, 270px);
+    -webkit-transform: translate(30px, 270px);
+    transform: translate(30px, 270px);
 }
 
 .page-six .page-six__fishone * {
@@ -1382,9 +1448,8 @@ p {
 }
 
 .page-six .page-six__bottleone {
-  -webkit-transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
-          transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
-
+    -webkit-transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
+    transform: translate(20px, 40px) scale(1.1) rotate(-20deg);
 }
 
 .page-six .page-six__bottleone * {
@@ -1393,9 +1458,8 @@ p {
 }
 
 .page-six .page-six__bottletwo {
-  -webkit-transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
-          transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
-
+    -webkit-transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
+    transform: translate(200px, 200px) scale(0.9) rotate(-10deg);
 }
 
 .page-six .page-six__bottletwo * {
@@ -1404,9 +1468,8 @@ p {
 }
 
 .page-six .page-six__ground__bottleone {
-  -webkit-transform: translate(335px, 50px) scale(0.8);
-          transform: translate(335px, 50px) scale(0.8);
-
+    -webkit-transform: translate(335px, 50px) scale(0.8);
+    transform: translate(335px, 50px) scale(0.8);
 }
 
 .page-seven .page__seven__fish {
@@ -1481,61 +1544,92 @@ p {
 }
 
 .page-four__animator .page-four__fishfour {
-  -webkit-animation: page-four__fish__right 5s ease-in-out;
-          animation: page-four__fish__right 5s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation: page-four__fish__right 5s ease-in-out;
+    animation: page-four__fish__right 5s ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .page-five__animator .page-five__fishtwo {
-  -webkit-animation: fishtwo__swimaway 2s ease-in-out;
-          animation: fishtwo__swimaway 2s ease-in-out;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation: fishtwo__swimaway 2s ease-in-out;
+    animation: fishtwo__swimaway 2s ease-in-out;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .page-five__animator .page-five__bottleone {
-  -webkit-animation: bottle__fall 2s ease-in-out;
-          animation: bottle__fall 2s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation: bottle__fall 2s ease-in-out;
+    animation: bottle__fall 2s ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .page-five__animator .page-five__bottletwo {
-  -webkit-animation: bottle__fall__two 4s ease-in-out;
-          animation: bottle__fall__two 4s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation: bottle__fall__two 4s ease-in-out;
+    animation: bottle__fall__two 4s ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .page-five__animator .page-five__fishone {
-  -webkit-animation: page-five__fishone__swim 4s ease-in-out;
-          animation: page-five__fishone__swim 4s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3500ms;
-          animation-delay: 3500ms;
+    -webkit-animation: page-five__fishone__swim 4s ease-in-out;
+    animation: page-five__fishone__swim 4s ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 3500ms;
+    animation-delay: 3500ms;
 }
 
 .page-six__animator .page-six__ground__bottleone {
-  -webkit-animation: page-six__bottle 8s ease-in-out;
-          animation: page-six__bottle 8s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation: page-six__bottle 8s ease-in-out;
+    animation: page-six__bottle 8s ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.page-seven__animation .page__text--seven {
+    -webkit-animation-name: page-seven__text;
+    animation-name: page-seven__text;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.page-eight__animation .page__text--eight {
+    -webkit-animation: page-eight__text 5s infinite;
+    animation: page-eight__text 5s infinite;
+}
+
+.page-nine__animation .page__text--nine {
+    -webkit-animation-name: page-nine__text;
+    animation-name: page-nine__text;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
 }
 
 .page__text {

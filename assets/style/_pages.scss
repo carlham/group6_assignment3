@@ -64,6 +64,32 @@
     }
 }
 
+.page-seven__animation {
+    .page__text--seven {
+        animation-name: page-seven__text;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.page-eight__animation {
+    .page__text--eight {
+        animation: page-eight__text 5s infinite;
+    }
+}
+
+.page-nine__animation {
+    .page__text--nine {
+        animation-name: page-nine__text;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+}
+
 .page__text {
     font-size: 2rem;
     position: absolute;
