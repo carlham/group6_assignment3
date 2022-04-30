@@ -37,7 +37,7 @@
 }
 .page-two{
 .page-two_facts1{
-    transform: translate(42px , 50px);
+    transform: translate(42px , 10px);
 }
     .page-two_duck{
         transform: translate(330px, -20px);
@@ -48,15 +48,12 @@
     }
     .page-two_fish1{
         transform: translate(10px, 170px);
-        opacity: 0;
     }
     .page-two_fish2{
         transform: translate(10px, 200px);
-        opacity: 0;
     }
     .page-two_fish3{
         transform: translate(-200px, 350px);
-        opacity: 0;
     }
     
     .page-two_strip1-under{
@@ -78,13 +75,13 @@
     }
     .page-three_fish4{
         transform: translate(50px, 200px);
-        opacity: 0;
+        opacity: 1;
     }
     .page-three_ground{
-        transform: translate(-107px, 270px);
+        transform: translate(-107px, 272px);
     }
     .page-three_stone{
-        transform: translate(400px, 66px);
+        transform: translate(400px, 69px);
     }
     .page-three_starfish{
         transform: translate(270px,67px);

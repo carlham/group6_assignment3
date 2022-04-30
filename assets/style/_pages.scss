@@ -12,9 +12,6 @@
     background-color: $teal;
 }
 
-.page-three {
-    background-color: $navy;
-}
 .page-front_jsanimations{
     .page-front_cloud_1{
         animation: slide-out-left 20s linear both;
@@ -37,14 +34,17 @@
     .page-two_fish1{
         animation: fish-swim 21s linear;
         animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
     .page-two_fish2{
         animation: fish-swim2 18s linear;
         animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
     .page-two_fish3{
         animation: fish-swim3 24s linear;
         animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 }
 .page-three_jsanimations{
@@ -55,8 +55,11 @@
     .page-three_fish4{
         animation: fish-swim4 10s linear;
         animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 }
+
+.page-three,
 .page-four,
 .page-five,
 .page-six {
@@ -109,13 +112,13 @@
     .page__text--seven {
         animation-name: page-seven__text;
         animation-duration: 3s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
     }
 }
 
 .page-eight__animation {
     .page__text--eight {
-        animation: page-eight__text 5s infinite;
+        animation: page-eight__text 5s 1;
     }
 }
 
@@ -124,10 +127,8 @@
         animation-name: page-nine__text;
         animation-duration: 2s;
         animation-timing-function: ease-out;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-        animation-fill-mode: none;
-        animation-play-state: running;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 }
 
