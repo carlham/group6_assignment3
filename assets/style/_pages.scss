@@ -15,7 +15,48 @@
 .page-three {
     background-color: $navy;
 }
-
+.page-front_jsanimations{
+    .page-front_cloud_1{
+        animation: slide-out-left 20s linear both;
+        animation-iteration-count: 1;
+    }
+    .page-front_cloud_2{
+        animation: slide-out-left1 20s linear both;
+        animation-iteration-count: 1;
+    }
+    .page-front_cloud_3{
+        animation: slide-out-left2 20s linear both;
+        animation-iteration-count: 1;
+    }
+    .page-front_cloud_4{
+        animation: slide-out-left3 20s linear both;
+        animation-iteration-count: 1;
+    }
+}
+.page-two_jsanimations{
+    .page-two_fish1{
+        animation: fish-swim 21s linear;
+        animation-iteration-count: 1;
+    }
+    .page-two_fish2{
+        animation: fish-swim2 18s linear;
+        animation-iteration-count: 1;
+    }
+    .page-two_fish3{
+        animation: fish-swim3 24s linear;
+        animation-iteration-count: 1;
+    }
+}
+.page-three_jsanimations{
+    .page-three_starfish{
+        animation: starfall 1s linear;
+        animation-iteration-count: 1;
+    }
+    .page-three_fish4{
+        animation: fish-swim4 10s linear;
+        animation-iteration-count: 1;
+    }
+}
 .page-four,
 .page-five,
 .page-six {

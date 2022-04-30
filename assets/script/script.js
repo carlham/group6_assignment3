@@ -1,12 +1,50 @@
-const pageFour = document.querySelector(".page-four");
-const pageFive = document.querySelector(".page-five");
-const pageSix = document.querySelector(".page-six");
+const pageFront = document.querySelector(".page-front");
+const pageTwo = document.querySelector(".page-two");
+const pageThree = document.querySelector(".page-three");
 
 const options = {
     root: null,
     threshold: 0,
     rootMargin: "-150px",
 };
+
+const pageFrontObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageFront.classList.add("page-front_jsanimations");
+            console.log("page-front");
+        }
+    });
+}, options);
+
+const pageTwoObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageTwo.classList.add("page-two_jsanimations");
+            console.log("page-two");
+        }
+    });
+}, options);
+
+const pageThreeObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageThree.classList.add("page-three_jsanimations");
+            console.log("page-three");
+        }
+    });
+}, options);
+
+pageFrontObserver.observe(pageFront);
+pageTwoObserver.observe(pageTwo);
+pageThreeObserver.observe(pageThree);
+
+
+const pageFour = document.querySelector(".page-four");
+const pageFive = document.querySelector(".page-five");
+const pageSix = document.querySelector(".page-six");
+
+
 
 const pageFourObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {

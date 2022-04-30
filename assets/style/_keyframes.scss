@@ -188,7 +188,7 @@
         transform: translateX(270px);
     }
     100% {
-        transform: translateX(-100px);
+        transform: translateX(-50px);
     }
 }
 
@@ -197,7 +197,7 @@
         transform: translate(150px, -50px);
     }
     100% {
-        transform: translate(-50px, -50px);
+        transform: translate(-100px, -50px);
     }
 }
 
@@ -206,7 +206,7 @@
         transform: translate(200px, 120px);
     }
     100% {
-        transform: translate(-60px, 120px);
+        transform: translate(-30px, 120px);
     }
 }
 
@@ -215,7 +215,7 @@
         transform: translate(100px, 220px);
     }
     100% {
-        transform: translate(-50px, 220px);
+        transform: translate(-30px, 220px);
     }
 }
 
@@ -239,91 +239,56 @@
 
 @keyframes fish-swim {
     0% {
-        transform: translate(10px, 120px);
+        transform: translate(10px, 170px);
         opacity: 1;
-    }
-    80% {
-        transform: translate(300px, 120px);
-    }
-    90% {
-        transform: rotateY(180deg);
     }
     100% {
-        transform: translate(0, 0) rotateY(180deg);
-        opacity: 1;
+       transform: translate(300px,170px);
+        opacity: 0;
     }
 }
 
 @keyframes fish-swim2 {
     0% {
-        transform: translate(10px, 150px);
+        transform: translate(10px, 200px);
         opacity: 1;
     }
-    80% {
-        transform: translate(220px, 100px);
-    }
-    90% {
-        transform: rotateY(180deg);
-    }
+    
     100% {
-        transform: translate(-20px, 0) rotateY(180deg);
-        opacity: 1;
+        transform: translate(300px, 200px);
+        opacity: 0;
     }
 }
 
 @keyframes fish-swim3 {
     0% {
-        transform: translate(10px, 200px);
+        transform: translate(10px, 350px);
         opacity: 1;
     }
-    80% {
-        transform: translate(180px, 90px);
-    }
-    90% {
-        transform: rotateY(180deg);
-    }
+   
     100% {
-        transform: translate(-40px, 0) rotateY(180deg);
-        opacity: 1;
+        transform: translate(300px, 350px);
+        opacity: 0;
     }
 }
 
 @keyframes fish-swim4 {
     0% {
-        transform: translate(50px, 350px);
+        transform: translate(50px, 200px);
         opacity: 1;
-    }
-    80% {
-        transform: translate(150px, 350px);
-    }
-    90% {
-        transform: rotateY(180deg);
     }
     100% {
-        transform: rotateY(180deg);
-        opacity: 1;
-    }
-}
-
-@keyframes textbox {
-    0% {
+        transform: translate(300px, 200px);
         opacity: 0;
     }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 1;
-    }
 }
-
 @keyframes starfall {
     0% {
         transform: translate(270px, 10px);
         animation-timing-function: ease-in;
     }
     100% {
-        transform: translate(270px, 154px);
+        transform: translate(270px, 67px);
         animation-timing-function: ease-out;
     }
 }
