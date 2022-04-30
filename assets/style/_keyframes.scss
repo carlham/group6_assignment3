@@ -239,35 +239,35 @@
 
 @keyframes fish-swim {
     0% {
-        transform: translate(10px, 150px);
+        transform: translate(10px, 170px);
         opacity: 1;
     }
     100% {
-       transform: translate(300px,150px);
+       transform: translate(300px,170px);
         opacity: 0;
     }
 }
 
 @keyframes fish-swim2 {
     0% {
-        transform: translate(10px, 170px);
+        transform: translate(10px, 200px);
         opacity: 1;
     }
     
     100% {
-        transform: translate(300px, 170px);
+        transform: translate(300px, 200px);
         opacity: 0;
     }
 }
 
 @keyframes fish-swim3 {
     0% {
-        transform: translate(10px, 200px);
+        transform: translate(10px, 350px);
         opacity: 1;
     }
    
     100% {
-        transform: translate(300px, 200px);
+        transform: translate(300px, 350px);
         opacity: 0;
     }
 }

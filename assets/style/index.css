@@ -544,78 +544,78 @@ add fonts, choose good font combination*/
 
 @-webkit-keyframes fish-swim {
   0% {
-    -webkit-transform: translate(10px, 150px);
-            transform: translate(10px, 150px);
+    -webkit-transform: translate(10px, 170px);
+            transform: translate(10px, 170px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 150px);
-            transform: translate(300px, 150px);
+    -webkit-transform: translate(300px, 170px);
+            transform: translate(300px, 170px);
     opacity: 0;
   }
 }
 
 @keyframes fish-swim {
   0% {
-    -webkit-transform: translate(10px, 150px);
-            transform: translate(10px, 150px);
+    -webkit-transform: translate(10px, 170px);
+            transform: translate(10px, 170px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 150px);
-            transform: translate(300px, 150px);
+    -webkit-transform: translate(300px, 170px);
+            transform: translate(300px, 170px);
     opacity: 0;
   }
 }
 
 @-webkit-keyframes fish-swim2 {
   0% {
-    -webkit-transform: translate(10px, 170px);
-            transform: translate(10px, 170px);
+    -webkit-transform: translate(10px, 200px);
+            transform: translate(10px, 200px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 170px);
-            transform: translate(300px, 170px);
+    -webkit-transform: translate(300px, 200px);
+            transform: translate(300px, 200px);
     opacity: 0;
   }
 }
 
 @keyframes fish-swim2 {
   0% {
-    -webkit-transform: translate(10px, 170px);
-            transform: translate(10px, 170px);
+    -webkit-transform: translate(10px, 200px);
+            transform: translate(10px, 200px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 170px);
-            transform: translate(300px, 170px);
+    -webkit-transform: translate(300px, 200px);
+            transform: translate(300px, 200px);
     opacity: 0;
   }
 }
 
 @-webkit-keyframes fish-swim3 {
   0% {
-    -webkit-transform: translate(10px, 200px);
-            transform: translate(10px, 200px);
+    -webkit-transform: translate(10px, 350px);
+            transform: translate(10px, 350px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 200px);
-            transform: translate(300px, 200px);
+    -webkit-transform: translate(300px, 350px);
+            transform: translate(300px, 350px);
     opacity: 0;
   }
 }
 
 @keyframes fish-swim3 {
   0% {
-    -webkit-transform: translate(10px, 200px);
-            transform: translate(10px, 200px);
+    -webkit-transform: translate(10px, 350px);
+            transform: translate(10px, 350px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: translate(300px, 200px);
-            transform: translate(300px, 200px);
+    -webkit-transform: translate(300px, 350px);
+            transform: translate(300px, 350px);
     opacity: 0;
   }
 }
@@ -926,20 +926,20 @@ p {
 }
 
 .page-two .page-two_fish1 {
-  -webkit-transform: translate(10px, 120px);
-          transform: translate(10px, 120px);
+  -webkit-transform: translate(10px, 170px);
+          transform: translate(10px, 170px);
   opacity: 0;
 }
 
 .page-two .page-two_fish2 {
-  -webkit-transform: translate(10px, 150px);
-          transform: translate(10px, 150px);
+  -webkit-transform: translate(10px, 200px);
+          transform: translate(10px, 200px);
   opacity: 0;
 }
 
 .page-two .page-two_fish3 {
-  -webkit-transform: translate(-200px, 200px);
-          transform: translate(-200px, 200px);
+  -webkit-transform: translate(-200px, 350px);
+          transform: translate(-200px, 350px);
   opacity: 0;
 }
 
