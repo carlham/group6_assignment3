@@ -2,10 +2,16 @@ const pageFront = document.querySelector(".page-front");
 const pageTwo = document.querySelector(".page-two");
 const pageThree = document.querySelector(".page-three");
 
+const options = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px",
+};
+
 const pageFrontObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            pageFour.classList.add("page-front__jsanimations");
+            pageFront.classList.add("page-front_jsanimations");
             console.log("page-front");
         }
     });
@@ -14,7 +20,7 @@ const pageFrontObserver = new IntersectionObserver(function(entries, observer) {
 const pageTwoObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            pageFour.classList.add("page-two__jsanimations");
+            pageTwo.classList.add("page-two_jsanimations");
             console.log("page-two");
         }
     });
@@ -23,7 +29,7 @@ const pageTwoObserver = new IntersectionObserver(function(entries, observer) {
 const pageThreeObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            pageFour.classList.add("page-three__jsanimations");
+            pageThree.classList.add("page-three_jsanimations");
             console.log("page-three");
         }
     });
@@ -38,11 +44,7 @@ const pageFour = document.querySelector(".page-four");
 const pageFive = document.querySelector(".page-five");
 const pageSix = document.querySelector(".page-six");
 
-const options = {
-    root: null,
-    threshold: 0,
-    rootMargin: "-150px",
-};
+
 
 const pageFourObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {

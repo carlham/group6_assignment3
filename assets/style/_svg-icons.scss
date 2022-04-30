@@ -38,7 +38,7 @@
 }
 .page-two{
 .page-two_facts1{
-    transform: translate(100px , 20px);
+    transform: translate(42px , 50px);
 }
     .page-two_duck{
         transform: translate(330px, -20px);
@@ -74,6 +74,9 @@
     }
 }
 .page-three{
+    .page-three_facts2{
+        transform: translate(35px, 60px);
+    }
     .page-three_fish4{
         transform: translate(50px, 350px);
         opacity: 0;
@@ -82,10 +85,10 @@
         transform: translate(-107px, 350px);
     }
     .page-three_stone{
-        transform: translate(400px, 150px);
+        transform: translate(400px, 147px);
     }
     .page-three_starfish{
-        transform: translate(270px,154px);
+        transform: translate(270px,147px);
     }
     .page-three_seaweed_1{
         transform: translate(-200px, 100px);

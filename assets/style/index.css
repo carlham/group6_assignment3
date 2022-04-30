@@ -424,8 +424,8 @@ add fonts, choose good font combination*/
             transform: translateX(270px);
   }
   100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
   }
 }
 
@@ -435,8 +435,8 @@ add fonts, choose good font combination*/
             transform: translateX(270px);
   }
   100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
   }
 }
 
@@ -446,8 +446,8 @@ add fonts, choose good font combination*/
             transform: translate(150px, -50px);
   }
   100% {
-    -webkit-transform: translate(-50px, -50px);
-            transform: translate(-50px, -50px);
+    -webkit-transform: translate(-100px, -50px);
+            transform: translate(-100px, -50px);
   }
 }
 
@@ -457,8 +457,8 @@ add fonts, choose good font combination*/
             transform: translate(150px, -50px);
   }
   100% {
-    -webkit-transform: translate(-50px, -50px);
-            transform: translate(-50px, -50px);
+    -webkit-transform: translate(-100px, -50px);
+            transform: translate(-100px, -50px);
   }
 }
 
@@ -468,8 +468,8 @@ add fonts, choose good font combination*/
             transform: translate(200px, 120px);
   }
   100% {
-    -webkit-transform: translate(-60px, 120px);
-            transform: translate(-60px, 120px);
+    -webkit-transform: translate(-30px, 120px);
+            transform: translate(-30px, 120px);
   }
 }
 
@@ -479,8 +479,8 @@ add fonts, choose good font combination*/
             transform: translate(200px, 120px);
   }
   100% {
-    -webkit-transform: translate(-60px, 120px);
-            transform: translate(-60px, 120px);
+    -webkit-transform: translate(-30px, 120px);
+            transform: translate(-30px, 120px);
   }
 }
 
@@ -490,8 +490,8 @@ add fonts, choose good font combination*/
             transform: translate(100px, 220px);
   }
   100% {
-    -webkit-transform: translate(-50px, 220px);
-            transform: translate(-50px, 220px);
+    -webkit-transform: translate(-30px, 220px);
+            transform: translate(-30px, 220px);
   }
 }
 
@@ -501,8 +501,8 @@ add fonts, choose good font combination*/
             transform: translate(100px, 220px);
   }
   100% {
-    -webkit-transform: translate(-50px, 220px);
-            transform: translate(-50px, 220px);
+    -webkit-transform: translate(-30px, 220px);
+            transform: translate(-30px, 220px);
   }
 }
 
@@ -544,85 +544,53 @@ add fonts, choose good font combination*/
 
 @-webkit-keyframes fish-swim {
   0% {
-    -webkit-transform: translate(10px, 120px);
-            transform: translate(10px, 120px);
+    -webkit-transform: translate(10px, 150px);
+            transform: translate(10px, 150px);
     opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(300px, 120px);
-            transform: translate(300px, 120px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
   }
   100% {
-    -webkit-transform: translate(0, 0) rotateY(180deg);
-            transform: translate(0, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 150px);
+            transform: translate(300px, 150px);
+    opacity: 0;
   }
 }
 
 @keyframes fish-swim {
   0% {
-    -webkit-transform: translate(10px, 120px);
-            transform: translate(10px, 120px);
+    -webkit-transform: translate(10px, 150px);
+            transform: translate(10px, 150px);
     opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(300px, 120px);
-            transform: translate(300px, 120px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
   }
   100% {
-    -webkit-transform: translate(0, 0) rotateY(180deg);
-            transform: translate(0, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 150px);
+            transform: translate(300px, 150px);
+    opacity: 0;
   }
 }
 
 @-webkit-keyframes fish-swim2 {
   0% {
-    -webkit-transform: translate(10px, 150px);
-            transform: translate(10px, 150px);
+    -webkit-transform: translate(10px, 170px);
+            transform: translate(10px, 170px);
     opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(220px, 100px);
-            transform: translate(220px, 100px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
   }
   100% {
-    -webkit-transform: translate(-20px, 0) rotateY(180deg);
-            transform: translate(-20px, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 170px);
+            transform: translate(300px, 170px);
+    opacity: 0;
   }
 }
 
 @keyframes fish-swim2 {
   0% {
-    -webkit-transform: translate(10px, 150px);
-            transform: translate(10px, 150px);
+    -webkit-transform: translate(10px, 170px);
+            transform: translate(10px, 170px);
     opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(220px, 100px);
-            transform: translate(220px, 100px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
   }
   100% {
-    -webkit-transform: translate(-20px, 0) rotateY(180deg);
-            transform: translate(-20px, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 170px);
+            transform: translate(300px, 170px);
+    opacity: 0;
   }
 }
 
@@ -632,18 +600,10 @@ add fonts, choose good font combination*/
             transform: translate(10px, 200px);
     opacity: 1;
   }
-  80% {
-    -webkit-transform: translate(180px, 90px);
-            transform: translate(180px, 90px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
   100% {
-    -webkit-transform: translate(-40px, 0) rotateY(180deg);
-            transform: translate(-40px, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 200px);
+            transform: translate(300px, 200px);
+    opacity: 0;
   }
 }
 
@@ -653,18 +613,10 @@ add fonts, choose good font combination*/
             transform: translate(10px, 200px);
     opacity: 1;
   }
-  80% {
-    -webkit-transform: translate(180px, 90px);
-            transform: translate(180px, 90px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
   100% {
-    -webkit-transform: translate(-40px, 0) rotateY(180deg);
-            transform: translate(-40px, 0) rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 200px);
+            transform: translate(300px, 200px);
+    opacity: 0;
   }
 }
 
@@ -674,18 +626,10 @@ add fonts, choose good font combination*/
             transform: translate(50px, 350px);
     opacity: 1;
   }
-  80% {
-    -webkit-transform: translate(150px, 350px);
-            transform: translate(150px, 350px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
   100% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 350px);
+            transform: translate(300px, 350px);
+    opacity: 0;
   }
 }
 
@@ -695,18 +639,10 @@ add fonts, choose good font combination*/
             transform: translate(50px, 350px);
     opacity: 1;
   }
-  80% {
-    -webkit-transform: translate(150px, 350px);
-            transform: translate(150px, 350px);
-  }
-  90% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
   100% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    opacity: 1;
+    -webkit-transform: translate(300px, 350px);
+            transform: translate(300px, 350px);
+    opacity: 0;
   }
 }
 
@@ -1003,8 +939,8 @@ p {
 }
 
 .page-two .page-two_facts1 {
-  -webkit-transform: translate(100px, 20px);
-          transform: translate(100px, 20px);
+  -webkit-transform: translate(42px, 50px);
+          transform: translate(42px, 50px);
 }
 
 .page-two .page-two_duck {
@@ -1055,6 +991,11 @@ p {
           animation: wave 4s ease-out infinite;
 }
 
+.page-three .page-three_facts2 {
+  -webkit-transform: translate(35px, 60px);
+          transform: translate(35px, 60px);
+}
+
 .page-three .page-three_fish4 {
   -webkit-transform: translate(50px, 350px);
           transform: translate(50px, 350px);
@@ -1067,13 +1008,13 @@ p {
 }
 
 .page-three .page-three_stone {
-  -webkit-transform: translate(400px, 150px);
-          transform: translate(400px, 150px);
+  -webkit-transform: translate(400px, 147px);
+          transform: translate(400px, 147px);
 }
 
 .page-three .page-three_starfish {
-  -webkit-transform: translate(270px, 154px);
-          transform: translate(270px, 154px);
+  -webkit-transform: translate(270px, 147px);
+          transform: translate(270px, 147px);
 }
 
 .page-three .page-three_seaweed_1 {
@@ -1513,22 +1454,22 @@ p {
 }
 
 .page-two_jsanimations .page-two_fish1 {
-  -webkit-animation: fish-swim 20s linear;
-          animation: fish-swim 20s linear;
+  -webkit-animation: fish-swim 21s linear;
+          animation: fish-swim 21s linear;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
 
 .page-two_jsanimations .page-two_fish2 {
-  -webkit-animation: fish-swim2 20s linear;
-          animation: fish-swim2 20s linear;
+  -webkit-animation: fish-swim2 18s linear;
+          animation: fish-swim2 18s linear;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
 
 .page-two_jsanimations .page-two_fish3 {
-  -webkit-animation: fish-swim3 20s linear;
-          animation: fish-swim3 20s linear;
+  -webkit-animation: fish-swim3 24s linear;
+          animation: fish-swim3 24s linear;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
