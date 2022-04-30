@@ -921,11 +921,7 @@ p {
           animation: wave 4s ease-out infinite;
 }
 
-.page-one .page-one_strip2-above {
-  -webkit-animation: wave2 4s ease-out infinite;
-          animation: wave2 4s ease-out infinite;
-}
-
+.page-one .page-one_strip2-above,
 .page-one .page-one_strip3-above {
   -webkit-animation: wave2 4s ease-out infinite;
           animation: wave2 4s ease-out infinite;

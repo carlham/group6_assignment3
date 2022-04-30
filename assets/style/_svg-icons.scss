@@ -25,12 +25,11 @@
     .page-one_strip1-above{
         animation: wave 4s ease-out infinite;
     }
-    .page-one_strip2-above{
-        animation: wave2 4s ease-out infinite;
-    }
+    .page-one_strip2-above, 
     .page-one_strip3-above{
         animation: wave2 4s ease-out infinite;
     }
+    
     .page-one_strip4-above{
         transform: translate(-10px, 5px);
         animation: wave 4s ease-out infinite;
