@@ -1,3 +1,39 @@
+const pageFront = document.querySelector(".page-front");
+const pageTwo = document.querySelector(".page-two");
+const pageThree = document.querySelector(".page-three");
+
+const pageFrontObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageFour.classList.add("page-front__jsanimations");
+            console.log("page-front");
+        }
+    });
+}, options);
+
+const pageTwoObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageFour.classList.add("page-two__jsanimations");
+            console.log("page-two");
+        }
+    });
+}, options);
+
+const pageThreeObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            pageFour.classList.add("page-three__jsanimations");
+            console.log("page-three");
+        }
+    });
+}, options);
+
+pageFrontObserver.observe(pageFront);
+pageTwoObserver.observe(pageTwo);
+pageThreeObserver.observe(pageThree);
+
+
 const pageFour = document.querySelector(".page-four");
 const pageFive = document.querySelector(".page-five");
 const pageSix = document.querySelector(".page-six");

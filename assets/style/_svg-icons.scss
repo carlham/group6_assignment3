@@ -1,24 +1,21 @@
 .page-front{
-    .cloud{
-        overflow: visible;
-    }
     .page-front_text{
         transform: translateY(250px);
     }
     .page-front_cloud_1{
         transform: translateX(270px);
-        animation: slide-out-left 20s linear both;
+       
     }
     .page-front_cloud_2{
         transform: translate(150px, -50px);
-        animation: slide-out-left1 20s linear both;
+        
     }
     .page-front_cloud_3{
     transform: translate(200px, 120px);
-    animation: slide-out-left2 20s linear both;}
+    }
+   
     .page-front_cloud_4{
         transform: translate(100px, 220px);
-        animation: slide-out-left3 20s linear both;
     }
 }
 .page-one{
@@ -40,7 +37,9 @@
     }
 }
 .page-two{
-   
+.page-two_facts1{
+    transform: translate(100px , 20px);
+}
     .page-two_duck{
         transform: translate(330px, -20px);
     }
@@ -50,17 +49,14 @@
     }
     .page-two_fish1{
         transform: translate(10px, 120px);
-        animation: fish-swim 20s linear;
         opacity: 0;
     }
     .page-two_fish2{
         transform: translate(10px, 150px);
-        animation: fish-swim2 20s linear;
         opacity: 0;
     }
     .page-two_fish3{
         transform: translate(-200px, 200px);
-        animation: fish-swim3 20s linear;
         opacity: 0;
     }
     
@@ -80,12 +76,7 @@
 .page-three{
     .page-three_fish4{
         transform: translate(50px, 350px);
-        animation: fish-swim4 10s linear;
         opacity: 0;
-    }
-   
-    .page-three_text2{
-        animation: textbox1;
     }
     .page-three_ground{
         transform: translate(-107px, 350px);
@@ -95,7 +86,6 @@
     }
     .page-three_starfish{
         transform: translate(270px,154px);
-        animation: starfall 1s linear;
     }
     .page-three_seaweed_1{
         transform: translate(-200px, 100px);
