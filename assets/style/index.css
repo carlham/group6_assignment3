@@ -1,11 +1,7 @@
-/*TODO
-potentially more/differnt colors*/
 * {
   font-family: sans-serif;
 }
 
-/*TODO
-add fonts, choose good font combination*/
 /*all animations go here, svg animations could go in the HTML as well*/
 @-webkit-keyframes floating {
   0% {
