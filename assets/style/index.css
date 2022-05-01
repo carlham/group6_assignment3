@@ -1377,6 +1377,7 @@ body > div > * {
 
 .page-two {
   background-color: #026873;
+  overflow: hidden;
 }
 
 .page-front_jsanimations .page-front_cloud_1 {
@@ -1452,7 +1453,7 @@ body > div > * {
 
 .page__infotext {
   position: absolute;
-  color: #a0ebe3;
+  color: #CBF6FF;
   width: 500px;
   margin: 0 auto;
   font-size: 1.1rem;

@@ -10,6 +10,7 @@
 
 .page-two {
     background-color: $teal;
+    overflow: hidden;
 }
 
 .page-front_jsanimations{
@@ -62,7 +63,7 @@
 //not sure if perfectly done, used example provided in feedback
 .page__infotext {
     position: absolute;
-    color: $tourqise;
+    color: $skyebule;
     width: 500px;
     margin: 0 auto;
     font-size: 1.1rem;
