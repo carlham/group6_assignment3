@@ -1,5 +1,3 @@
-/*initial layout, might rework/set up flex later*/
-
 body {
     width: 100%;
     margin: 0%;
@@ -9,11 +7,8 @@ body {
 body>div>* {
     width: 600px;
     height: 600px;
-    background-color: $cadetBlue; /*background color just for visibility for now*/
+    background-color: $cadetBlue; 
     margin: 100px auto;
-}
-p{
-    max-width: 65ch;
 }
 
 .introtext {
