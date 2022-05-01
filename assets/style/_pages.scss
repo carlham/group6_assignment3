@@ -59,6 +59,26 @@
     }
 }
 
+//not sure if perfectly done, used example provided in feedback
+.page__infotext {
+    position: absolute;
+    color: $tourqise;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.page__infotext--two {
+    transform: translate(54px, -160px);
+}
+
+.page__infotext--three {
+    transform: translate(46px, -114px);
+}
+
 .page-three,
 .page-four,
 .page-five,
@@ -67,6 +87,8 @@
     overflow: hidden;
 }
 
+
+//tried to use extend for animation properties, but couldnt get it to work
 .page-four__animator {
     .page-four__fishfour {
         animation: page-four__fish__right 5s ease-in-out;
