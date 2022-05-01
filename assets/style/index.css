@@ -2,7 +2,6 @@
   font-family: sans-serif;
 }
 
-/*all animations go here, svg animations could go in the HTML as well*/
 @-webkit-keyframes floating {
   0% {
     -webkit-transform: translateY(0);
@@ -17,6 +16,7 @@
             transform: translateY(0);
   }
 }
+
 @keyframes floating {
   0% {
     -webkit-transform: translateY(0);
@@ -780,7 +780,6 @@
   }
 }
 
-/*initial layout, might rework/set up flex later*/
 body {
   width: 100%;
   margin: 0%;
@@ -791,12 +790,7 @@ body > div > * {
   width: 600px;
   height: 600px;
   background-color: #5f9ea0;
-  /*background color just for visibility for now*/
   margin: 100px auto;
-}
-
-p {
-  max-width: 65ch;
 }
 
 .introtext h1 {
@@ -815,7 +809,6 @@ p {
   text-align: center;
 }
 
-/* all media-query related here*/
 @media (prefers-reduced-motion) {
   * {
     -webkit-animation: none !important;
