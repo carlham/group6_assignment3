@@ -12,7 +12,6 @@ const pageFrontObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageFront.classList.add("page-front_jsanimations");
-            console.log("page-front");
         }
     });
 }, options);
@@ -21,7 +20,6 @@ const pageTwoObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageTwo.classList.add("page-two_jsanimations");
-            console.log("page-two");
         }
     });
 }, options);
@@ -30,7 +28,6 @@ const pageThreeObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageThree.classList.add("page-three_jsanimations");
-            console.log("page-three");
         }
     });
 }, options);
@@ -50,7 +47,6 @@ const pageFourObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageFour.classList.add("page-four__animator");
-            console.log("page-four");
         }
     });
 }, options);
@@ -59,7 +55,6 @@ const pageFiveObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageFive.classList.add("page-five__animator");
-            console.log("page-five");
         }
     });
 }, options);
@@ -68,7 +63,6 @@ const pageSixObserver = new IntersectionObserver(function(entries, observer) {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             pageSix.classList.add("page-six__animator");
-            console.log("page-six");
         }
     });
 }, options);
@@ -88,7 +82,6 @@ const pageSevenObserver = new IntersectionObserver(function(entriesOne, observer
     entriesOne.forEach((entry) => {
         if (entry.isIntersecting) {
             pageSeven.classList.add("page-seven__animation");
-
         }
     });
 }, options);
@@ -107,7 +100,6 @@ const pageNineObserver = new IntersectionObserver(function(entriesOne, observerO
     entriesOne.forEach((entry) => {
         if (entry.isIntersecting) {
             pageNine.classList.add("page-nine__animation");
-
         }
     });
 }, options);
